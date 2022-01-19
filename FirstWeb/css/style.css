@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5755bccb8259b515333df0e1/1466111941034-GIIKB6HB6ADZB2O0D7HW/Stocksy_comp_461838.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+h1{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: auto;
+}
+span{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 700px;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    margin: 20px auto;
+    
+    
+}
+

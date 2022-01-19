@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.h-25{
+    height: 25px;
+
+}
+
+.w-100{
+    width: 100%;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mainContainer{
+    background-image: url("../img/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: top left;
+}
+
+header {
+    background: transparent;
+    padding: 3vw;
+    
+}
+
+header .logo {
+    width: 125px;
+    background: transparent;
+    float: left;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Spectral', serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+h1:hover{
+    color: #F47340;
+}
+
+header .navbar {
+    width: 400px;
+    background: transparent;
+    float: right;
+}
+
+header .navbar ul li {
+    display: inline-block;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family: 'Spectral', serif;
+    padding: 2px;
+}
+
+header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover{
+    color: #F47340;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconOne, .iconTwo{
+    width: 20px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+.content{
+    padding: 40px 0px;
+    position: absolute;
+    top: calc(50% - 80px);
+    text-align: center;
+    color: #fff;
+}
+
+h4{
+    font-family: 'Spectral', serif;
+    font-size: 23px;
+}
+
+.textTwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 120px;
+    font-weight: normal;
+    font-family: 'Spectral', serif;
+}
+
+h2:hover{
+    text-decoration: 3px solid underline;
+}
+
+
+
+
+
+
+/* Mobile & Ipad Responsive */
+
+/* iPad */
+
+@media all and (max-width: 800px){
+    h2{
+        font-size: 50px;
+    }
+
+    .mainContainer{
+    background-image: url("../img/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+}
+/* Iphone */
+@media all and (max-width: 500px){
+    
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 30vh;
+    }
+
+    .content{
+    padding: 40px 0px;
+    position: absolute;
+    top: calc(50% - 170px);
+    text-align: center;
+    color: #fff;
+}
+
+    h4{
+        font-size: 19px;
+    }
+
+    .textTwo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 30vh;
+    }
+
+    h2{
+        font-size: 50px;
+
+    }
+
+}
