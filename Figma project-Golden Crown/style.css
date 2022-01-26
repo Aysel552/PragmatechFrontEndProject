@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+
+body{
+    background: url(https://s3-alpha-sig.figma.com/img/d07f/abbe/fcdf5b78766276423911c4d7f49ec42c?Expires=1644192000&Signature=h4BHa6CWK6J78Lxr8Y-oLQhv5mjnvTWCnjHjZ-gsFGBOHnotciVAXvHJiemeyeZDijSJA6T4TdoOVL~TfhkgY3hBz4p~J07cBpkjpwq-DiNLQKqcd2~nGGJlb-rckmQ93-kxiJx3Q68Zsf6XLI3rxlq~~JnCwr3Kzk7oAvv9fmeclPSCF9SZ8Hpr~fa37nVYny-v6T8rHIMP72y8yT4OsFOI9PVrCs2kRaN-rkd6njmZtr0MGiUS7vvQa~CVygB6FhJvKVbLTFRHay1FBHJgeCwch6238eH6ndCWTtUWqu2-cn4~7RbMdCv0YzDLooI8cTmQ9HFnE94CamUZg-TO5g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a, img{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#1F1F24;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: linear-gradient(180deg, #FFFFFF 14.1%, rgba(255, 255, 255, 0) 92.75%);
+
+}
+
+h1{
+    color: #27AE60;
+    font-size: 30px;
+}
+
+.nav__links{
+    list-style-type: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+
+.nav-wrapper{
+    width: 100px;
+    margin: 30px auto;
+}
+
+.sl-nav li ul{
+    display: none;
+}
+
+.header-info-details{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid #253476;
+    padding: 10px;
+    background-color:#253476;
+}
+
+.flag{
+    margin-left: 10px;
+}
+
+.navbar-paragraph{
+    color: #fff;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.center-heading{
+    color: #FFFFFF;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+span{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
