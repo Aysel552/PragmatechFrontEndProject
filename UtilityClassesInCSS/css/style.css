@@ -1,1 +1,16 @@
 /* General classes of the project */
+
+body{
+    background-color: #f1f2f7 !important;
+}
+
+.main-panel{
+    border: 1px solid red;
+}
+
+.colored-btn-panel{
+    border: 1px solid red;
+}
+
+
+

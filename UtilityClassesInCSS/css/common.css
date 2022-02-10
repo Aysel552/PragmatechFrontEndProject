@@ -1,1 +1,112 @@
 /* Write and use the common classes in all sections during the project */
+
+:root{
+    --btn-primary: #5e2572;
+    --btn-secondary: #d9dbdc;
+    --btn-success: #00c689;
+    --btn-danger: #fc7242;
+    --btn-warning: #ffc100;
+    --btn-info: #4d13d1;
+    --btn-light: #f8f9fa;
+    --btn-dark: #4f4a60;
+    --btn-link: transparent;
+    --white-color: #fff;
+    --black-color: #000000;
+    --blue-color: blue;
+    --space-x: 5px;
+    --space-2x: 10px;
+    --space-3x: 15px;
+    --space-4x: 20px;
+    --space-5x: 25px;
+    --space-6x: 30px;
+}
+
+
+
+.btn{
+    margin-right: 0.5 rem !important;
+}
+/* Button Colors */
+.btn-primary{
+    background-color: var(--btn-primary);
+    color: var(--white-color);
+}
+
+.btn-secondary{
+    background-color: var(--btn-secondary);
+    color: var(--black-color);
+}
+
+.btn-success{
+    background-color: var(--btn-success);
+    color: var(--white-color);
+}
+
+.btn-danger{
+    background-color: var(--btn-danger);
+    color: var(--white-color);
+}
+
+.btn-warning{
+    background-color: var(--btn-warning);
+    color: var(--black-color);
+}
+
+.btn-info{
+    background-color: var(--btn-info);
+    color: var(--white-color);
+}
+
+.btn-light{
+    background-color: var(--btn-light);
+    color: var(--black-color);
+}
+
+.btn-dark{
+    background-color: var(--btn-dark);
+    color: var(--white-color);
+}
+
+.btn-link{
+    background-color: var(--btn-link);
+    color: var(--blue-color);
+}
+
+/* Button Sizes */
+
+.btn-small{
+    padding: var(--space-x) var(--space-2x) !important;
+}
+
+.btn-medium{
+    padding: var(--space-2x) var(--space-4x) !important;
+}
+
+.btn-large{
+    padding: var(--space-4x) var(--space-6x) !important;
+}
+
+/* Button Border Radius */
+
+.btn-radius-small{
+    border-radius: var(--space-x);
+}
+
+.btn-radius-medium{
+    border-radius: var(--space-2x);
+}
+
+.btn-radius-large{
+    border-radius: var(--space-3x);
+}
+
+span{
+    color: var(--btn-danger);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+
