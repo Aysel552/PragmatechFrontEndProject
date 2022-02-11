@@ -151,6 +151,38 @@ a{
     color: var(--blue-color);
 }
 
+/* Inverse buttons */
+.btn-primary-inverse{
+    background-color: var(--btn-primary-inverse);
+}
+.btn-secondary-inverse{
+    background-color: var(--btn-secondary-inverse);
+}
+
+.btn-success-inverse{
+    background-color: var(--btn-success-inverse);
+}
+
+.btn-danger-inverse{
+    background-color: var(--btn-danger-inverse);
+}
+
+.btn-warning-inverse{
+    background-color: var(--btn-warning-inverse);
+}
+
+.btn-info-inverse{
+    background-color: var(--btn-info-inverse);
+}
+
+.btn-light-inverse{
+    background-color: var(--btn-light-inverse);
+}
+
+.btn-dark-inverse{
+    background-color: var(--btn-dark-inverse);
+}
+
 
 
 
