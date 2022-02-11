@@ -2,17 +2,26 @@
 
 :root{
     --btn-primary: #5e2572;
+    --btn-primary-color: #5e2572;
     --btn-secondary: #d9dbdc;
+    --btn-secondary-color: #d9dbdc;
     --btn-success: #00c689;
+    --btn-success-color: #00c689;
     --btn-danger: #fc7242;
+    --btn-danger-color: #fc7242;
     --btn-warning: #ffc100;
+    --btn-warning-color: #ffc100;
     --btn-info: #4d13d1;
+    --btn-info-color: #4d13d1;
     --btn-light: #f8f9fa;
+    --btn-light-color: #f8f9fa;
     --btn-dark: #4f4a60;
+    --btn-dark-color: #4f4a60;
     --btn-link: transparent;
     --white-color: #fff;
     --black-color: #000000;
     --blue-color: blue;
+    --btn-outline: transparent;
     --space-x: 5px;
     --space-2x: 10px;
     --space-3x: 15px;
@@ -21,10 +30,9 @@
     --space-6x: 30px;
 }
 
-
-
 .btn{
     margin-right: 0.5 rem !important;
+    display: inline-block !important;
 }
 /* Button Colors */
 .btn-primary{
@@ -100,11 +108,56 @@
     border-radius: var(--space-3x);
 }
 
-span{
-    color: var(--btn-danger);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+/* Flex Position */
+
+.flex{
+    display: flex;
 }
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+/* Flex Direction Styles */
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* Align Items Styles */
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+
 
 
 
