@@ -183,6 +183,17 @@ a{
     background-color: var(--btn-dark-inverse);
 }
 
+.btn-icon{
+    width: 42px;
+    height: 42px;
+}
+
+
+.btn-rounded{
+    border-radius: var(--space-10x);
+    padding: var(--space-x);
+    font-size: var(--space-2x);
+}
 
 
 
