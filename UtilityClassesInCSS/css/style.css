@@ -195,5 +195,10 @@ a{
     font-size: var(--space-2x);
 }
 
+.icon{
+    color: var(--white-color);
+    font-size: var(--space-3x);
+}
+
 
 
