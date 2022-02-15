@@ -10,7 +10,14 @@ First of all, it is important to note what JavaScript is. --JavaScript-- is a --
 -Displaying animations
 -Using a dropdown hamburger menu
 -Zooming in or zooming out on an image
-
-
-
 ```
+
+### In which areas JavaScript could be used?
+```
+Honestly speaking, there are no limits of JavaScript using.Here are the areas of using JavaScript:
+*Creating web and mobile apps;
+*Building web servers and developing server applications(JavaScript can be used to built simple web servers and develop the back-end infrastructure using Node.js.)
+*Game development (use JavaScript to create browser games.)
+```
+
+#### [Contribution guidelines for this project](https://www.hackreactor.com/blog/what-is-javascript-used-for)
