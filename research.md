@@ -25,7 +25,11 @@ Honestly speaking, there are no limits of JavaScript using.Here are the areas of
 #### [Contribution guidelines for this project](https://www.techopedia.com/definition/7793/interpreter)
 #### [Contribution guidelines for this project](https://ourtechroom.com/tech/language-translator-in-computer-and-translator-types/)
 #### [Contribution guidelines for this project](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)
-
+#### [Contribution guidelines for this project](https://en.wikipedia.org/wiki/Programming_paradigm)
+#### [Contribution guidelines for this project](https://totalview.io/blog/what-does-debugger-do#:~:text=Debugging%20is%20the%20process%20of,finding%20problems%20in%20the%20code.)
+#### [Contribution guidelines for this project](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI)
+#### [Contribution guidelines for this project](https://techterms.com/definition/low-level_language)
+#### [Contribution guidelines for this project](https://www.geeksforgeeks.org/difference-between-high-level-and-low-level-languages/)
 
 
 ## Question2: Give a short description to terms below:
@@ -75,3 +79,41 @@ An assembler is the conversion of instructions in low-level code to machine code
 * it does complex hardware-specific jobs in an easy way
 * it is ideal for a time-critical job
 
+### What are programming paradigms?
+Programming paradigms are a way to classify programming languages based on their features.
+
+### Common programming paradigms?
+* imperative - in which the programmer instructs the machine how to change its state,
+* procedural - which groups instructions into procedures,
+* object-oriented - which groups instructions with the part of the state they operate on,
+* declarative - in which the programmer merely declares properties of the desired result, but not how to compute it
+* functional - in which the desired result is declared as the value of a series of function applications,
+* logic - in which the desired result is declared as the answer to a question about a system of facts and rules,
+* mathematical - in which the desired result is declared as the solution of an optimization problem
+* reactive - in which the desired result is declared with data streams and the propagation of change
+
+### What is debugging?
+* Debugging is a process of analyzing how the program runs, how it generates data in order to find defects and issues in the code. The errors or defects are referred to "bugs".
+
+### What is boolean?
+* Boolean is a data type that has one of two possible values which is true or false.
+
+### What is char?
+* A char is a data type stores character data in a fixed-length field.The char type is used to store single characters(letters, digits, symbols)
+### What is null?
+* In coputer programming,null is both a value and a pointer.Null is a built-in constant that has a value of zero.Null means that there is no value,we are lookng at a blank/empty cell.
+### What is command-line interface?
+* A command-line interface(CLI) connects a user to a computer program or operating system.Through the CLI, users interact with a system or application by typing in text (commands). The command is typed on a specific line following a visual prompt from the computer. A command-line interface (CLI) is a text-based user interface (UI) used to run programs, manage computer files and interact with the computer. Command-line interfaces are also called command-line user interfaces, console user interfaces and character user interfaces.
+
+### What is low-level language?
+* Low-level language is machine-oriented.Low-level programs are expressed in terms of the machine operations.A low-level language is a type of programming language that contains basic instructions recognized by a computer.Low-level code is often cryptic and not human-readable.
+### Examples of Low-level language?
+* Two types of low-level language are: machine code and assembly language
+
+### What is high-level language?
+*A high-level language is any programming language that enables development of a program in a much more user-friendly programming context and is generally independent of the computer's hardware architecture. A high-level language has a higher level of abstraction from the computer, and focuses more on the programming logic rather than the underlying hardware components. The main difference between high level language and low level language is that, Programmers can easily understand or interpret or compile the high level language in comparison of machine. On the other hand, Machine can easily understand the low level language in comparison of human beings.
+### Examples of high-level language?
+* BASIC, C/C++ and Java are popular examples of high-level languages.
+
+### What is markup language?
+* A markup language is a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax. While several markup languages exist, the two most popular are HTML and XML.
