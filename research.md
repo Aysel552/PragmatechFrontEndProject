@@ -19,18 +19,26 @@ Honestly speaking, there are no limits of JavaScript using.Here are the areas of
 *Game development (use JavaScript to create browser games.)
 ```
 #### [Contribution guidelines for this project](https://www.hackreactor.com/blog/what-is-javascript-used-for)
-#### [Contribution guidelines for this project] (https://en.wikipedia.org/wiki/Compiler)
+#### [Contribution guidelines for this project](https://en.wikipedia.org/wiki/Compiler)
 #### [Contribution guidelines for this project](https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/compiler/)
-#### [Contribution guidelines for this project](https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/interpreter/)
+#### [Contribution guidelines for this project] (https://www.toppr.com/guides/computer-science/computer-fundamentals/system-software/interpreter/)
 #### [Contribution guidelines for this project](https://www.techopedia.com/definition/7793/interpreter)
+#### [Contribution guidelines for this project](https://ourtechroom.com/tech/language-translator-in-computer-and-translator-types/)
+#### [Contribution guidelines for this project](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)
 
-### Question2: Give a short description to terms below:
+
+
+## Question2: Give a short description to terms below:
+### What are compilers?
 ```
-**compilers** - A compiler is a computer program that translates computer code written in one programming language(the source language) into another language(the target language).The generated code can be later executed many times against different data each time. In other words a compiler is a software thatconvers the high level language to machine/binary language. The name "compiler" is primarily used for programs that source code from a high-level programming language to a lower level language.
+** compilers ** - A compiler is a computer program that translates computer code written in one programming language(the source language) into another language(the target language).The generated code can be later executed many times against different data each time. In other words a compiler is a software thatconvers the high level language to machine/binary language. The name "compiler" is primarily used for programs that source code from a high-level programming language to a lower level language.
+```
+### What are interpreters?
 
 * Execution time is more.
 **interpreters** - An interpreter transforms or interprets a high-level programming code into code that can be understood by the machine (machine code) or into an intermediate language that can be easily executed as well.The interpreter reads each statement of code line by line and then converts or executes it directly.In contrast, a compiler coverts a high-level source code into native(compiled) code that can be executed directly by the operating system. Interpreter can work in 3 ways: directly execute the source code and produce an output;  translate the source code in ome intermediate code and then execute the code; use an internal compiler to produce precompiled code and then execute the precompiled code.
 
+### What are the differences between compilers and interpreters?
 The difference between compiler and interpreter?
 The major difference is that the compiler compiles the whole program at once,while the interpreter executes it line by line. Rather than scanning the whole program and translating it into machine code like a compiler does, the interpreter translates code one statement at a time.
 
@@ -40,6 +48,7 @@ There are 4 types of interpreters:
 *Abstract Syntax Tree interpreters
 *Self interpreters
 
+### What are benefits and drawbacks of interpreters?
 Advantages of Interpreters:
 *Executes line by line. Hence, debugging is easy;
 *No intermediate code hence uses the memory efficiently.
@@ -50,5 +59,19 @@ Disadvantages of Interpreters:
 Examples:
 Programming languages that use interpreters include Python, Ruby, and JavaScript, while programming languages that use compilers include Java, C++, and C.
 
+### What are translators?
+Translator is a program that converts source code into object code.The main purpose of the translator is to make the machine understand the program written in a low/assembly/high-level language. Any program written in a high level language is known as source code. However, computers cannot understand source code. Before it can be run, source code must first be translated into a form which a computer understands - this form is called object code.
+### The types of translator?
+Generally, there are three types of translator:
+* compilers
+* interpreters
+* assemblers
 
-```
+### What are assemblers?
+An assembler is the conversion of instructions in low-level code to machine code by assembler.Whereas compilers and interpreters generate many machine code instructions for each high level instruction, assemblers create one machine code instruction for each assembly instruction.
+
+### The Features of Assemblers?
+* It requires less amount of memory and execution time
+* it does complex hardware-specific jobs in an easy way
+* it is ideal for a time-critical job
+
