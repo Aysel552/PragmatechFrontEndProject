@@ -5,53 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Product List</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac3077be4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="product-container">
         <!-- first product description -->
         <div class="product-item">
-            <img src="images/image-one.jpeg" alt="First Image" width="327px" height="420px">
-            <span class="product-assessment">⭐️⭐️⭐️</span>
-            <a class="product-link" href="">
-                <h3 class="product-name">Commodo Consequat aute</h3>
+            <i class="fa-regular fa-heart product-item-heart-icon"></i>
+            <i class="fa-regular fa-clone product-item-clone-icon"></i>
+            <i class="fa-solid fa-eye product-item-eye-icon"></i>
+            <img src="images/image-one.jpeg" alt="First Image" class="product-item-image-front-side">
+            <img src="images/image-five.jpeg" alt="Fifth Image" class="product-item-image-back-side">
+            <span class="product-item-star">
+            <i class="fa-solid fa-star flex product-item-star colored-star"></i>
+            <i class="fa-solid fa-star flex product-item-star colored-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            </span>
+            <a class="product-item-link" href="">
+                <h3 class="product-item-name">Commodo Consequat aute</h3>
             </a>
-            <p><span>£</span>80</p>
+            <span class="product-item-price">£ 80.00</span>
+            <button class="product-item-btn">Add To Cart</button>
         </div>
 
         <!-- second product description -->
         <div class="product-item">
-            <img src="images/image-two.jpeg" alt="Second Image" width="327px" height="420px">
-            <span class="product-assessment">⭐️⭐️⭐️</span>
-            <a class="product-link" href="">
-                <h3 class="product-name">Denimad Minima Veniam</h3>
+            <i class="fa-regular fa-heart product-item-heart-icon"></i>
+            <i class="fa-regular fa-clone product-item-clone-icon"></i>
+            <i class="fa-solid fa-eye product-item-eye-icon"></i>
+            <img src="images/image-two.jpeg" alt="Second Image" class="product-item-image-front-side">
+            <img src="images/image-six.jpeg" alt="Sixth Image" class="product-item-image-back-side">
+            <span class="product-item-sale-percent">-19%</span>
+            <span class="product-item-star">
+            <i class="fa-solid fa-star product-item-star colored-star"></i>
+            <i class="fa-solid fa-star product-item-star colored-star"></i>
+            <i class="fa-solid fa-star product-item-star"></i>
+            <i class="fa-solid fa-star product-item-star"></i>
+            <i class="fa-solid fa-star product-item-star"></i>
+            </span>
+            <a class="product-item-link" href="">
+                <h3 class="product-item-name">Denimad Minima Veniam</h3>
             </a>
-            <p><del>£99</del> <span>£</span><ins>80</ins></p>
+            <span class="product-item-price"><del>£99</del> <ins>£80</ins></span>
+            <button class="product-item-btn">Add To Cart</button>
         </div>
 
         <!-- third product description -->
         <div class="product-item">
-            <img src="images/image--three.jpeg" alt="Third Image" width="327px" height="420px">
-            <span class="product-assessment">⭐️⭐️⭐️</span>
-            <a class="product-link" href="">
-                <h3 class="product-name">Inventore veritatis quaerat</h3>
+            <i class="fa-regular fa-heart product-item-heart-icon"></i>
+            <i class="fa-regular fa-clone product-item-clone-icon"></i>
+            <i class="fa-solid fa-eye product-item-eye-icon"></i>
+            <img src="images/image-three.jpeg" alt="Third Image" class="product-item-image-front-side">
+            <img src="images/image-one.jpeg" alt="First Image" class="product-item-image-back-side">
+            <span class="produt-item-star">
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            </span>
+            <a class="product-item-link" href="">
+                <h3 class="product-item-name">Inventore veritatis quaerat</h3>
             </a>
-            <p><span>£</span>160</p>
+            <span class="product-item-price">£160</span>
+            <button class="product-item-btn">Add To Cart</button>
         </div>
 
         <!-- fourth product description -->
         <div class="product-item">
-            <img src="images/image-four.jpeg" alt="Fourth Image" width="327px" height="420px">
-            <span class="product-assessment">⭐️⭐️⭐️</span>
-            <a class="product-link" href="">
-                <h3 class="product-name">Labore Dolore Magnamoes</h3>
+            <i class="fa-regular fa-heart product-item-heart-icon"></i>
+            <i class="fa-regular fa-clone product-item-clone-icon"></i>
+            <i class="fa-solid fa-eye product-item-eye-icon"></i>
+            <img src="images/image-four.jpeg" alt="Fourth Image" class="product-item-image-front-side">
+            <img src="images/image-seven.jpeg" alt="Seventh Image" class="product-item-image-back-side">
+            <span class="product-item-star">
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            <i class="fa-solid fa-star flex product-item-star"></i>
+            </span>
+            <a class="product-item-link" href="">
+                <h3 class="product-item-name">Labore Dolore Magnamoes</h3>
             </a>
-            <p><span>£</span>70</p>
+            <span class="product-item-price">£70</span>
+            <button class="product-item-btn">Add To Cart</button>
         </div>
     </div>
 </body>

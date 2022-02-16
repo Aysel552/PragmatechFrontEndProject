@@ -1,0 +1,170 @@
+
+.product-item {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item-image-front-side {
+    width: 300px;
+    height: 400px;
+}
+
+.product-item-image-back-side {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    opacity: 0%;
+}
+
+.product-item-heart-icon {
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.product-item-clone-icon {
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0%;
+}
+
+.product-item-eye-icon {
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0%;
+}
+
+.product-item-link{
+    text-decoration: none;
+}
+
+.product-item-name{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 10px;
+}
+
+.product-item-price {
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+del{
+    color: #888888;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+ins{
+    text-decoration: none;
+}
+
+.product-item-btn {
+    background-color: #ebb5ac !important;
+    border-radius: 0%;
+    border: 0px solid #000000;
+    padding: 10px;
+    opacity: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.colored-star {
+    color: #ebb5ac !important;
+}
+
+.product-item-star {
+    color: #888888;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* Writing hover part */
+
+
+.product-item:hover .product-item-image-back-side {
+    opacity: 100%;
+    top: 0;
+    margin-top: 2px;
+
+    
+}
+
+.product-item-name:hover {
+    color: #ebb5ac;
+}
+
+.product-item:hover .product-item-btn {
+    background-color: #ebb5ac;
+    border-radius: 0%;
+    border: 0px solid #000000;
+    padding: 10px;
+    opacity: 100%;
+}
+
+.product-item:hover .product-item-btn:hover {
+    background-color: #000000 !important;
+    color: #fff;
+}
+
+.product-item:hover .product-item-clone-icon {
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 55px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 100%;
+}
+
+.product-item:hover .product-item-eye-icon {
+    padding: 10px;
+    color: #000000;
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: 95px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 100%;
+}
+
+.product-item:hover .product-item-heart-icon:hover {
+    background-color: #ebb5ac;
+}
+
+.product-item:hover .product-item-clone-icon:hover {
+    background-color: #ebb5ac;
+}
+
+.product-item:hover .product-item-eye-icon:hover {
+    background-color: #ebb5ac;
+}
+
+.product-item:hover {
+    border: 0.1px solid gray;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}

@@ -1,69 +1,24 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.product-container{
+.product-container {
+    height: 20px auto;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    align-content: center;
     flex-wrap: wrap;
-    border: 1px solid red;
 }
 
-.product-item{
-    margin-top: 30px;
-   
-    padding: 20px;
-    background-color: #fff;
-}
-
-.product-item:hover{
-    border: 1px solid lightgray;
-    padding: 20px;
-    background-color: #fff;
-
-}
-
-
-
-/* .product-item:hover{
-    background-image: url(https://capricathemes.com/wordpress/WCM02/WCM020045/wp-content/uploads/2020/09/16.jpg);
-    background-repeat: no-repeat;
-    width: 327px;
-    height: 420px;
+.product-item-sale-percent {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-} */
-
-.product-assessment{
-    display: flex;
-}
-
-.product-link{
-    text-decoration: none;
-}
-
-.product-name{
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    font-size: 12px;
-}
-
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
-del{
-    color: lightgray;
-}
-
-ins{
-    text-decoration: none;
-}
-
+    right: 15px;
+    bottom: 150px;
+    background-color: #f34723;
+    color: white;
+    padding: 3px 10px;
+} 
 
 
