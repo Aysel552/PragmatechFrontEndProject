@@ -30,7 +30,11 @@ Honestly speaking, there are no limits of JavaScript using.Here are the areas of
 #### [Contribution guidelines for this project](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI)
 #### [Contribution guidelines for this project](https://techterms.com/definition/low-level_language)
 #### [Contribution guidelines for this project](https://www.geeksforgeeks.org/difference-between-high-level-and-low-level-languages/)
-
+#### [Contribution guidelines for this project](https://www.igloosoftware.com/blog/internet-vs-intranet-vs-extranet-whats-the-difference/#:~:text=The%20Internet%20is%20a%20globally,share%20information%20within%20an%20organization.)
+#### [Contribution guidelines for this project](https://www.geeksforgeeks.org/difference-between-internet-and-intranet/)
+#### [Contribution guidelines for this project](https://www.geeksforgeeks.org/difference-between-url-and-uri/#:~:text=URL%20is%20used%20to%20describe,regardless%20of%20the%20method%20used.)
+#### [Contribution guidelines for this project](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+#### [Contribution guidelines for this project](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
 
 ## Question2: Give a short description to terms below:
 ### What are compilers?
@@ -117,3 +121,32 @@ Programming paradigms are a way to classify programming languages based on their
 
 ### What is markup language?
 * A markup language is a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax. While several markup languages exist, the two most popular are HTML and XML.
+
+#### Question3: What are the difference between internet ve intranet?
+* The Internet is a globally-connected network of computers that enables people to share information and communicate with each other. Internet is used to connect the different networks of computers simultaneously. It is a public network therefore anyone can access the internet. On the internet, there are multiple users and it provides an unlimited of information to the users. 
+* An intranet is a local or restricted network that enables people to store, organize, and share information within an organization. Intranet is the type of internet that is used privately. It is a private network therefore anyone can’t access the intranet. On the intranet, there is a limited number of users and it provides a piece of limited information to its users. 
+
+* The main difference is that an intranet is a platform that can be bought and sold (or built, in some cases), while the Internet is the underlying technology that enables its connectivity. Internet is unsafe. Intranet is safe.
+
+### What means server-side and client-side?
+* Server-side: server-side website programming mostly involves choosing which content is returned to the browser in response to requests. The server-side code handles tasks like validating submitted data and requests, using databases to store and retrieve data and sending the correct data to the client as required. Server-side code can be written in any number of programming languages — examples of popular server-side web languages include PHP, Python, Ruby, C#, and JavaScript (NodeJS). The server-side code has full access to the server operating system and the developer can choose what programming language (and specific version) they wish to use.
+* Client-side: client-side code and is primarily concerned with improving the appearance and behavior of a rendered web page. This includes selecting and styling UI components, creating layouts, navigation, form validation, etc. By contrast, server-side website programming mostly involves choosing which content is returned to the browser in response to requests. The server-side code handles tasks like validating submitted data and requests, using databases to store and retrieve data and sending the correct data to the client as required.
+Client-side code is written using HTML, CSS, and JavaScript — it is run inside a web browser and has little or no access to the underlying operating system (including limited access to the file system).
+### What is server and how it works?
+A server stores, sends and receives data.
+### How the server works?
+* a server is a repository for web pages that respond when someone requests a certain website. This ‘request’ is simply the act of entering the web address into a browser and hitting return. The server monitors these requests via ports, giving their ‘response‘ nearly instantly to deliver the site page requested. Once the server has received and verified the request at-hand, it gathers the assorted elements that make up a website and communicates this assembled information back to the user’s web browser.  At its core, request-response is the key to what work a server does, day in and day out.
+### What is domain and how it works?
+* A domain is the name of a website. Domain name is the address of your website that people type in the browser URL bar to visit your website. It's what comes after “@” in an email address, or after “www.” in a web address. A domain name is a human-friendly address, sometimes called a URL (Uniform Resource Locator) or web address.
+### How works the domain?
+* When enter a domain name in the web browser, it first sends a request to a global network of servers that form the Domain Name System (DNS).
+* These servers then look up for the name servers associated with the domain and forward the request to those name servers.
+* These name servers are computers managed by a hosting company.Hosting company will forward the request to the computer where the website is stored.
+* This computer is called a web server. It has special software installed (Apache, Nginx are two popular web server software). The web server now fetches the web page and pieces of information associated with it.
+* Finally, it then sends this data back to the browser.
+
+### What is HTTP for?
+* HTTP is a protocol for fetching resources such as HTML documents.It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
+### What are the differences between URL and URI?
+* URL is used to describe the identity of an item. URL links a web page, a component of a web page or a program on a web page with the help of accessing methods like protocols. URL provides the details about what type of protocol is to be used.URL is a type of URI.
+* URI provides a technique for defining the identity of an item. URI is used to distinguish one resource from other regardless of the method used. URI doesn’t contains the protocol specification.URI is the superset of URL.
