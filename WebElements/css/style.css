@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main-header{
+    background-color: #262626;
+    font-size: 13px;
+    height: 54px;
+    margin-bottom: 1px;
+    line-height: 54px;
+    z-index: 100;
+    
+}
+
+.main-logo{
+    display: flex;
+    padding: 0 20px;
+}
+
+.main-logo a{
+    display: flex;
+    position: absolute;
+    top: 18px;
+    text-indent: -1;
+    height: 18px;
+    width: 152px;
+    color: #fff;
+    text-decoration: none;
+    background: url(	https://public-assets.envato-static.com/assets/log…08eb481b9451d379599dfed24868e52b6b2d66f5cf633.svg);
+    background-size: 152px 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.header-actions{
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+
+.header-actions a{
+    color: #fff;
+    text-decoration: none;
+    
+    
+}
+
+.header-btn{
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+    box-shadow: #6f9a37;
+    background-color: #82b440;
+    font-size: 15px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+    margin: 10px 20px;
+}
+
+.buy-now-btn{
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
