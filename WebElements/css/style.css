@@ -228,7 +228,10 @@ a {
 
 /* Styling hover part */
 
-
+.main-container-item::after {
+    height: 100%;
+    transition: all 0.5s linear;
+}
 .main-container-item:hover::after {
     height: 100%;
     transition: all 0.4s linear;
@@ -249,10 +252,17 @@ a {
     color: #fff;
 }
 
+.main-container-header-title{
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
 .main-container-item:hover .main-container-header-title{
     color: #fff !important;
-    background-color: orange !important;
+    background-color: transparent !important;
 }
+
+
 
 .main-container-item:hover i {
     background-color: orange;
@@ -260,9 +270,14 @@ a {
     border-color: #fff;
 }
 
+.main-container-item  p {
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
 .main-container-item:hover p {
     color: #fff !important;
-    background-color: orange !important;
+    background-color: transparent !important;
 }
 
 .main-container-item:hover .btn {
