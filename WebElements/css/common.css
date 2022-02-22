@@ -1,0 +1,27 @@
+:root {
+    --primary-color: orange;
+    --secondary-color: #262626;
+    --first-common-color: #fff;
+    --second-common-color: #000000;
+    --third-color: #333;;
+}
+
+.main-container-header-title {
+    font-family: Droid-sans, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    padding: 13px 0px;
+}
+
+.main-containet-header-description {
+    font: 400 14px/1.42857143 muli, sans-serif;
+    padding: 0px 17px 17px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.grid-center{
+    display: grid;
+    place-items: center;
+}

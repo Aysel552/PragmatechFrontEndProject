@@ -128,6 +128,10 @@ h2{
     
 }
 
+.services{
+    font-size: 30px;
+}
+
 h2, p{
     color: #000000 !important;
     background: #fff !important;
@@ -143,67 +147,129 @@ h2, p{
 }
 
 p{
-    margin: 0 0 10px;
+    margin: 30px 30px;
     font-size: 14px;
 }
 
 
-/* Styling demo-1 columns */
-.demo-row{
-    margin-right: -15px;
-    margin-left: -15px;
+
+/* Demo-1 columns Styling*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: muli, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* common styles */
+
+
+.grid-center{
+    display: grid;
+    place-items: center;
+}
+
+/* main styles */
+
+.main-container {
+    width: 1140px;
+    text-align: center;
+    margin: 0% auto;
+    padding: 80px 0px;
+}
+
+.main-container-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
 }
 
-.demo-row::before{
-    display: table;
-    content: " ";
-}
-
-.col-sm-4{
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.css-col .type-1{
+.main-container-item {
     position: relative;
-    overflow: hidden;
-    margin: 40px 0;
     padding: 10px;
-    transition: all .5s ease;
     box-shadow: 1px 2px 10px rgb(0 0 0 / 18%);
 }
 
-.css-col .type-1 .fa {
-    width: 130px;
-    height: 130px;
+
+.main-container-item i {
+    width: 126px;
+    height: 126px;
     margin: 20px;
+    font-size: 48px;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
     color: orange;
-    border-radius: 100%;
-    border: solid;
-    font-size: 52px;
+    border: 2px solid orange;
+    border-radius: 50%;
+
 }
 
-.css-col .type-1::after{
+.main-container-item p {
+    color: #919191;
+}
+
+.btn {
+    margin: 10px 0px 20px;
+    padding: 14px 35px;
+    background-color: orange;
+    color: #fff !important;
+}
+
+/* Styling hover part */
+
+
+.main-container-item:hover::after {
+    height: 100%;
+    transition: all 0.4s linear;
+}
+
+.main-container-item::after {
     position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
+    content: " ";
     bottom: 0;
     left: 0;
-    content: "";
-    background: orange;
-    transition: all .5s ease;
+    width: 100%;
+    height: 0;
+    background-color: orange;
+    z-index: -1;
 }
 
-.fa{
-    display: inline-block;
+.main-container-item:hover {
+    color: #fff;
 }
 
-.fa-camera-retro:before {
-    content: "\f083";
+.main-container-item:hover .main-container-header-title{
+    color: #fff !important;
+    background-color: orange !important;
 }
+
+.main-container-item:hover i {
+    background-color: orange;
+    color: #fff;
+    border-color: #fff;
+}
+
+.main-container-item:hover p {
+    color: #fff !important;
+    background-color: orange !important;
+}
+
+.main-container-item:hover .btn {
+    background-color: #fff;
+    color: orange !important;
+}
+
 
 
 
