@@ -1,9 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --primary-color: orange;
     --secondary-color: #262626;
     --first-common-color: #fff;
     --second-common-color: #000000;
     --third-color: #333;;
+}
+
+.main-container {
+    width: 1140px;
+    text-align: center;
+    margin: 0% auto;
+    padding: 80px 0px;
+}
+
+.main-container-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
 }
 
 .main-container-header-title {
@@ -14,14 +33,23 @@
     padding: 13px 0px;
 }
 
-.main-containet-header-description {
+.main-container-header-description {
     font: 400 14px/1.42857143 muli, sans-serif;
     padding: 0px 17px 17px;
     margin-bottom: 10px;
     color: #333;
 }
 
+.main-container-item p {
+    color: #919191;
+}
+
 .grid-center{
     display: grid;
     place-items: center;
 }
+
+.text-center{
+    text-align: center;
+}
+

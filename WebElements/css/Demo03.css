@@ -1,0 +1,49 @@
+
+.heading{
+    background-color: #24cf5f;
+    color: #fff;
+    padding: 13px 15px;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.main-container-item i {
+    width: 126px;
+    height: 126px;
+    margin: 20px;
+    font-size: 48px;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    color: #24cf5f;
+}
+
+.btn {
+    margin: 10px 0px 20px;
+    padding: 12px 35px;
+    background-color:#24cf5f; 
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+
+/* Hover Styling */
+
+.main-container-item::after {
+    height: 100%;
+    transition: all 0.4s linear forwards;
+}
+.main-container-item:hover::after {
+    height: 100%;
+    transition: all 0.4s linear forwards;
+}
+
+.main-container-item:hover {
+    border: 1px solid #24cf5f;
+}
+
+
