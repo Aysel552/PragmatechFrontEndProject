@@ -1,0 +1,41 @@
+.heading{
+    background-color: #c0df19;
+}
+
+.main-container-header{
+    margin: 60px 0;
+}
+
+.main-container-item{
+    background-color: #f4ffb9;
+}
+
+.main-container-item i {
+    width: 126px;
+    height: 126px;
+    margin: -90px 20px 20px;
+    font-size: 48px;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    color: #c0df19;
+    border-radius: 100%;
+}
+
+.btn {
+    margin: 10px 0px 20px;
+    padding: 12px 35px;
+    background-color:#c0df19; 
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+/* Hover part */
+
+.main-container-item i:hover {
+    background-color:#c0df19; 
+    color: #fff;
+}
