@@ -60,9 +60,10 @@
     
 }
 
-.main-container-header-title:hover{
-    color: #fff !important;
+.bg-color{
+    color: #000000;
 }
+
 
 .main-container-item:hover a{
     background-color:  #8f0a60;
