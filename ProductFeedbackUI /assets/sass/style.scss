@@ -1,4 +1,90 @@
+@import "./FileStructureSass/common/buttons";
+@import "./FileStructureSass/common/components";
+@import "./FileStructureSass/common/forms";
+@import "./FileStructureSass/common/interactive";
+@import "./FileStructureSass/general/colors";
+@import "./FileStructureSass/general/general";
+@import "./FileStructureSass/general/layout";
+@import "./FileStructureSass/general/reset";
+@import "./FileStructureSass/general/typography";
+@import "./FileStructureSass/general/variables";
+
+
+body{
+    background-color: $background-color;
+    padding: 0px 15px;
+}
+
 h1{
     font-family: $font-stack;
     font-size: $large-heading-font-size;
 }
+.feedback-status{
+    width: 255px;
+    height: 137px;
+    
+}
+
+
+.feedback-topic{
+    background: radial-gradient(to center, $radial-color-first 0%, $radial-color-second 53.09%, $radial-color-third 100% !important );
+
+}
+.categories{
+    width: 255px;
+    height: 166px;
+}
+.categories{
+    display: flex;
+    // justify-content: $justify-content-center;
+    background-color: $white-color;
+    margin-top: 10px;
+}
+
+.category-item{
+    font-size: 20px;
+}
+
+.status-list{
+    display: flex;
+    background-color: $white-color;
+    margin-top: 10px;
+
+}
+ul{
+    display: flex;
+    border: 1px solid green;
+}
+
+.categories ul li {
+    padding: 0px 15px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.status-list{
+    width: 255px;
+    height: 178px;
+}
+
+
+.status-list ul li{
+    padding: 5px 15px;
+}
+
+.status-list-items{
+    flex-direction: $flex-direction-column ;
+}
+
+
+
+
+
+.feedback-status{
+    display: inline-block;
+    border: 1px solid red;
+    // background: radial-gradient(to center, $radial-color-first 0%, $radial-color-second 53.09%, $radial-color-third 100% !important );
+}
+
+
+
