@@ -61,21 +61,22 @@
     }
 }
 
-.main-container-item:hover::after{
-    transform: rotateX(0) translateY(0);
-}
-
-.main-container-item::after{
+.main-container-item::before{
+    content: " ";
     position: absolute;
+    top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
     background: #ddf9ff;
     transform: rotateX(90deg) translateY(100%);
     transition: all .8s ease;
-    bottom: 0;
-    content: "";
-    top: 0;
-    right: 0;
-    left: 0;
     z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container-item:hover::before{
+    transform: rotateX(0) translateY(0);
 }
 
