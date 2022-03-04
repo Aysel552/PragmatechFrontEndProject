@@ -8,31 +8,137 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/suggestions.css">
 </head>
 <body>
-    <section id="suggestion-page">
+    <section class="page">
         <div class="feedback">
-            <div class="feedback-topic">
-                <div class="feedback-status">
-                    <h1>Frontend Mentor</h1>
-                    <p>Frontend Board</p>
-                </div>
-                <ul class="categories">
-                    <li>All</li>
-                    <li>UI</li>
-                    <li>UX</li>
-                    <li>Enhancement</li>
-                    <li>Bug</li>
-                    <li>Feature</li>
-                </ul>
-
-                <ul class="status-list">
-                    <li>Planned</li>
-                    <li>In-Progress</li>
-                    <li>Live</li>
-            </ul>
+          <div class="feedback-item">
+            <div class="feedback-item-type">
+              <h3 class="feedback-item-type-head">Frontend Mentor</h3>
+              <p class="feedback-item-type-text">Feedback Board</p>
             </div>
+            <div class="feedback-item-design">
+              <a href="#" class="feedback-item-design-all">All</a>
+              <a href="#" class="feedback-item-design-ui">UI</a>
+              <a href="#" class="feedback-item-design-ux">UX</a>
+              <a href="#" class="feedback-item-design-enhancement">Enhancement</a>
+              <a href="#" class="feedback-item-design-bug">Bug</a>
+              <a href="#" class="feedback-item-design-feature">Feature</a>
+            </div>
+            <div class="feedback-item-info">
+              <div class="feedback-item-info-head">
+                <h3>Roadmap</h3>
+                <a href="#">View</a>
+              </div>
+              <div class="feedback-item-info-item">
+                <div class="feedback-item-info-item-planned">
+                  <i class="fa-solid fa-circle fa-2xs fa-circle1"></i>
+                  <p>Planned</p>
+                </div>
+                <p>2</p>
+              </div>
+              <div class="feedback-item-info-item">
+                <div class="feedback-item-info-item-progress">
+                  <i class="fa-solid fa-circle fa-2xs fa-circle2"></i>
+                  <p>In-Progress</p>
+                </div>
+                <p>3</p>
+              </div>
+              <div class="feedback-item-info-item">
+                <div class="feedback-item-info-item-live">
+                  <i class="fa-solid fa-circle fa-2xs fa-circle3"></i>
+                  <p>Live</p>
+                </div>
+                <p>1</p>
+              </div>
+            </div>
+          </div>
+          <div class="feedback-element">
+            <div class="feedback-element-head">
+              <i class="fa-solid fa-gear"></i>
+              <h1>6 Suggestions</h1>
+              <a>Sort by:Most Upvotes></a>
+              <button>+ Add Feedback</button>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />112</a>
+  
+              <div class="feedback-element-item-text">
+                <h1>Add tags for solutions</h1>
+                <p>Easier to search for solutions based on a specific stack.</p>
+                <a href="#">Enhancement</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>2</p>
+              </div>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />99</a>
+              <div class="feedback-element-item-text">
+                <h1>Add a dark theme option</h1>
+                <p>
+                  It would help people with light sensitivities and who prefer
+                  dark mode.
+                </p>
+                <a href="#">Feature</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>4</p>
+              </div>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />65</a>
+              <div class="feedback-element-item-text">
+                <h1>Q&A within the challenge hubs</h1>
+                <p>Challenge-specific Q&A would make for easy reference.</p>
+                <a href="#">Feature</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>1</p>
+              </div>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />51</a>
+              <div class="feedback-element-item-text">
+                <h1>Allow image/video upload to feedback</h1>
+                <p>Images and screencasts can enhance comments on solutions.</p>
+                <a href="#">Enhancement</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>2</p>
+              </div>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />42</a>
+              <div class="feedback-element-item-text">
+                <h1>Ability to follow others</h1>
+                <p>Stay updated on comments and solutions other people post.</p>
+                <a href="#">Enhancement</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>3</p>
+              </div>
+            </div>
+            <div class="feedback-element-item">
+              <a href="" class="btn-number">^<br />3</a>
+              <div class="feedback-element-item-text">
+                <h1>Preview images not loading</h1>
+                <p>
+                  Challenge preview images are missing when you apply a filter.
+                </p>
+                <a href="#">Bug</a>
+              </div>
+              <div class="feedback-element-item-text-comment">
+                <i class="fa-solid fa-comment fa-xl"></i>
+                <p>0</p>
+              </div>
+            </div>
+          </div>
         </div>
-</section>
-</body>
-</html>
+      </section>
