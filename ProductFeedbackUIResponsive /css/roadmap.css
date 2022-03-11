@@ -1,0 +1,15 @@
+#roadmap-section {
+  background-color: #373F68;
+  padding: 0 15px;
+}
+
+.roadmap-section-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px;
+  margin: 0 auto;
+}
