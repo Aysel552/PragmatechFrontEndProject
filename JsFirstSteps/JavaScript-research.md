@@ -162,8 +162,52 @@ console.log(object2); //we see that object2 also updates the age attribute
 ## Question6: Which benefits will bring you this topic?
 - Quickly understand the error which occurs;
 
-### NaN, null, undefined in Javascript
 
-### Expressions and operators
+### NaN, null, undefined in Javascript [NaN, null, undefined in Javascript](http://simplifyjs.com/cheatsheets/tricky-parts-undefined-null-nan-javascript)
+[Типы данных](https://learn.javascript.ru/types)
+
+
+## What is Undefined?
+- Accesing value that is not defined. (In other words, a variable without a value)
+- Undefined represents any value that has not been defined anywhere in the program.
+ -if any variable or operation isn't able to produce a meaningful value,it returns undefiined.
+ - Оно формирует тип из самого себя так же, как и null.
+ - Оно означает, что «значение не было присвоено».
+ - Если переменная объявлена, но ей не присвоено никакого значения, то её значением будет undefined:
+
+
+```
+Example: let myVariable; //  the value is undefined and the type is undefined
+```
+## What is Null?
+- null represents an empty value and carry no meaningful info.
+- Оно формирует отдельный тип, который содержит только значение null:
+```
+let age = null;
+```
+- Null просто специальное значение, которое представляет собой «ничего», «пусто» или «значение неизвестно».
+
+## What is NaN?
+- NaN ( not a number) is a result of nonsensical computation which cannot produce a meaningful result. (NaN является результатом бессмысленных вычислений, которые не могут дать значимого результата.)
+-NaN is the only value which is not equal to itself;
+- NaN означает вычислительную ошибку. Это результат неправильной или неопределённой математической операции:
+- Если где-то в математическом выражении есть NaN, то результатом вычислений с его участием будет NaN.
+- Значение NaN «прилипчиво». Любая операция с NaN возвращает NaN:
+
+```
+alert( "не число" / 2 );    // NaN;
+alert( "не число" / 2 + 5 ); // NaN
+
+```
+
+## Question1: Bu tiplər başqa hansı dillərdə mövcuddur?
+- null in Ruby and Python;
+
+
+## Question2: NaN null və undefined bunlardan hansı data tipdir və növləri nədir? Primitive yoxsa reference tip olub olmadığı haqqında nə deyə bilərsiz?
+- null,undefined
+- primitive data types
+
+### Expressions and operators [Expressions and operators] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
 ### Next week topic - Functions in Javascript
