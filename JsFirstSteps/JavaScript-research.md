@@ -210,4 +210,141 @@ alert( "не число" / 2 + 5 ); // NaN
 
 ### Expressions and operators [Expressions and operators] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 
+### [Expressions] (https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74#:~:text=Any%20unit%20of%20code%20that,arguments%20of%20a%20function%20invocation.)
+
+## Question1: What is expression?
+- Expression is any valid unit of code that resolves to a value.(Выражение — это любая допустимая единица кода, которая преобразуется в значение.)
+## What expression categories do you know?
+
+- Arithmetic: evaluates to a number;
+```
+10;  // Here 10 is an expression that is evaluated to the numeric value 10 by the JS interpreter
+10+13; // This is another expression that is evaluated to produce the numeric value 23
+```
+- String: evaluates to a character string;
+```
+'hello';
+'hello' + 'world'; // evaluates to the string 'hello world'
+```
+- Logical: evaluates to true or false; This set of expressions often involve the usage of logical operators && (AND), ||(OR) and !(NOT)
+```
+Examples:
+10 > 9;   // evaluates to boolean value true
+10 < 20;  // evaluates to boolean value false
+true;     //evaluates to boolean value true
+a===20 && b===30; // evaluates to true or false based on the values of a and b
+
+```
+- Primary expressions: basic keywords and general expressions in JS.
+```
+Examples:
+'hello world'; // A string literal
+23;            // A numeric literal
+true;          // Boolean value true
+sum;           // Value of variable sum
+this;          // A keyword that evaluates to the current object
+
+```
+- Left-hand-side expressions: Left values are the destination of an assignment.
+```
+Examples of left-hand-side expressions:
+i = 10;
+total = 0;
+```
+- Assignment Expressions: when expressions use the = operator to assign a value to a variable.
+```
+Example:
+average = 55
+
+var b = (a = 1); // here the assignment expression (a = 1) evaluates to a value that is assigned to the variable b. b = (a = 1) is another assignment expression. var is not part of the expression.
+```
+- Expressions with side effects: expressions that result in a change or a side effect such as setting or modifying the value of a variable through the assignment operator =, function call, incrementing or decrementing the value of a variable.
+
+```
+Examples:
+sum = 20; // here sum is assigned the value of 20
+sum++; // increments the value of sum by 1
+
+function modify(){
+  a *= 10;
+}
+var a = 10;
+modify(); // modifies the value of a to 100.
+```
+## Question2: What is operator? [Operators] (https://www.programiz.com/javascript/operators#:~:text=In%20JavaScript%2C%20an%20operator%20is,2%20and%203%20are%20operands.)
+## [Operators-W3Schools] (https://www.w3schools.com/jsref/jsref_operators.asp)
+
+- Operator is a special symbol used to perform operations on operands
+- JS operators are used to assign values,compare values,perform arithmetic operations and etc.
+```
+2 + 3; // 5
+Here + operator performs addition, whereas 2 and 3 are operands.
+```
+
+## Question3:  What are the differences between operator and expression? [Operators-vs-Expressions] (https://www.knowledgeboat.com/question/distinguish-between-operator-and-expression--19462974169141036)
+
+- An operator is a symbol or sign used to specify an operation to be performed,while expression is a set of variables,constants and operators.
+- Operator works on operands,while expression is a combination of operators and operands.
+
+## What types of operators do you know? [Types-of-operators] (https://www.programiz.com/javascript/operators#:~:text=In%20JavaScript%2C%20an%20operator%20is,2%20and%203%20are%20operands.)
+- Assignment Operators: are used to assign values to variables.
+```
+Example: const x = 5;
+```
+- Arithmetic Operators: used to perform arithmetic calculations
+
+```
+Example:
+const number = 3 + 5; // 8
+Here, the + operator is used to add two operands.
+```
+
+- Comparison Operators: compare two values and return a boolean value true or false. Comparison operators are used in decision-making and loops.
+
+```
+Example: 
+const a = 3, b = 2;
+console.log(a > b); // true 
+Here, the comparison operator > is used to compare whether a is greater than b.
+```
+- Logical Operators: perform logical operations and return a boolean value, true or false. Logical operators are used in decision making and loops.
+
+```
+Example:
+const x = 5, y = 3;
+(x < 6) && (y < 5); // true
+
+```
+
+- && (logical AND): true if both the operands are true, else returns false;
+- || (logical OR): true if one of the operands is true; returns false if both are false
+- ! (logical NOT): true if the operand is false and vice-versa.
+
+```
+Example: 
+/ logical AND
+console.log(true && true); // true
+console.log(true && false); // false
+
+// logical OR
+console.log(true || false); // true
+
+// logical NOT
+console.log(!true); // false
+```
+
+- String Operator: use + operator to concatenate (join) two or more strings.
+
+```
+Example:
+// concatenation operator
+console.log('hello' + 'world'); // helloworld
+
+let a = 'JavaScript';
+
+a += ' tutorial';  // a = a + ' tutorial'; // JavaScript tutorial
+console.log(a);
+```
+
+
 ### Next week topic - Functions in Javascript
