@@ -1,14 +1,10 @@
-let x = 0;
+// verilən x ədədinin rəqəmlərini ekrana çap edən proqram yazın
 
-function displayNumbers(){
-    if (x < 30){
-        x++;
-        console.log(x);
-        displayNumbers();
-    }
-    }
-    
-displayNumbers();
+
+function calc(x){
+    console.log(`${parseFloat(x%10)}`)
+}
+calc( 4.234)
 
 
 

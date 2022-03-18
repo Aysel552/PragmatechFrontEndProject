@@ -1,6 +1,6 @@
 # Hello World Article:
 
-### Qustion1: How many options are there to write JS code?
+### Question1: How many options are there to write JS code?
 
 ## Answer: We can write JS codes in 2 ways: inside HTML using script tag  or using external scripts.
 
