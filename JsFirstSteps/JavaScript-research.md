@@ -348,3 +348,5 @@ console.log(a);
 
 
 ### Next week topic - Functions in Javascript
+## What is function?
+- A function is a block of code that performs a specific task.
