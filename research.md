@@ -151,7 +151,9 @@ A server stores, sends and receives data.
 * URL is used to describe the identity of an item. URL links a web page, a component of a web page or a program on a web page with the help of accessing methods like protocols. URL provides the details about what type of protocol is to be used.URL is a type of URI.
 * URI provides a technique for defining the identity of an item. URI is used to distinguish one resource from other regardless of the method used. URI doesn’t contains the protocol specification.URI is the superset of URL.
 
-## Imperative and Declarative Approach in programming.
+<!--------------------------------------------------------------------------------->
+
+## Imperative and Declarative Approach in programming. [Contribution guidelines for this project](https://github.com/PragmatechEducation/FrontEnd03)
 
 #### Question1: What is a programming paradigm?
 **Programming paradigm** is a way to classify programming languages based on their features. There is **another definition** of programming paradigm. **A programming paradigm is a method to solve a problem using tools and techniques that are available to us following some approach.** There are a lot of well-known programming languages,however, all of them need to follow some strategy when they are implemented and this strategy/approach is a paradigm.
@@ -197,4 +199,29 @@ includes:
 - may **automate repetitive flow** with **simplifying code structure**.
 
 <!-- --------------------------------------------------------------------- -->
+## Function in Javascript
+
+### What is function?
+Function is a block of code that performs a specific task.
+
+### How to declare a function?
+The syntax to declare a function:
+* A function is declared using the function keyword;
+* The basic rules of naming a function are similar to naming a variable.It is better to give a descriptive name for the function. For example, if you multiply 2 numbers,it si better to name the function multiply or multiplyNumbers
+* The body of function must be written within {}
+
+```
+function nameOfFunction (){
+    //function body
+}
+```
+
+```
+//declaring a function named greet()
+
+function greet(){
+    console.log("Hi");
+}
+```
+
 
