@@ -44,7 +44,7 @@ Honestly speaking, there are no limits of JavaScript using.Here are the areas of
 ### What are interpreters?
 
 * Execution time is more.
-**interpreters** - An interpreter transforms or interprets a high-level programming code into code that can be understood by the machine (machine code) or into an intermediate language that can be easily executed as well.The interpreter reads each statement of code line by line and then converts or executes it directly.In contrast, a compiler coverts a high-level source code into native(compiled) code that can be executed directly by the operating system. Interpreter can work in 3 ways: directly execute the source code and produce an output;  translate the source code in ome intermediate code and then execute the code; use an internal compiler to produce precompiled code and then execute the precompiled code.
+** interpreters ** - An interpreter transforms or interprets a high-level programming code into code that can be understood by the machine (machine code) or into an intermediate language that can be easily executed as well.The interpreter reads each statement of code line by line and then converts or executes it directly.In contrast, a compiler coverts a high-level source code into native(compiled) code that can be executed directly by the operating system. Interpreter can work in 3 ways: directly execute the source code and produce an output;  translate the source code in ome intermediate code and then execute the code; use an internal compiler to produce precompiled code and then execute the precompiled code.
 
 ### What are the differences between compilers and interpreters?
 The difference between compiler and interpreter?
@@ -150,3 +150,51 @@ A server stores, sends and receives data.
 ### What are the differences between URL and URI?
 * URL is used to describe the identity of an item. URL links a web page, a component of a web page or a program on a web page with the help of accessing methods like protocols. URL provides the details about what type of protocol is to be used.URL is a type of URI.
 * URI provides a technique for defining the identity of an item. URI is used to distinguish one resource from other regardless of the method used. URI doesn’t contains the protocol specification.URI is the superset of URL.
+
+## Imperative and Declarative Approach in programming.
+
+#### Question1: What is a programming paradigm?
+**Programming paradigm** is a way to classify programming languages based on their features. There is **another definition** of programming paradigm. **A programming paradigm is a method to solve a problem using tools and techniques that are available to us following some approach.** There are a lot of well-known programming languages,however, all of them need to follow some strategy when they are implemented and this strategy/approach is a paradigm.
+
+#### Question2: What is Imperative Programming?
+Imperative programming is **a type of programming paradigm/approach** that describes  **how the program executes.** ( тип парадигмы программирования, который описывает, как программа выполняется.)
+* Developers are more concerned with how to get an answer step by step.
+* Imperative Programming comprises the sequence of command imperatives, where **the order of execution is very important.**
+* Imperative Programming uses mutable and immutable data.
+* Fortran, Java, C, C++ are examples of imperative programming.
+
+#### Question3: What is Declarative Programming?
+Declarative Programming is **a type of programming paradigm** that describes **what programs to be executed.** (тип парадигмы программирования, который описывает, какие программы должны выполняться.)
+* Developers are more concerned with the answer that is received.
+* Declarative Programming is **mainly focuses on end result.**
+* Declarative programming **expresses the logic of computation.**
+
+#### Question4: What are the differences between Imperative and Declarative?
+Imperative Programming:
+- programs specify **how it is to be done**
+- describes **the control flow** of computation(the order)
+- main goal is to describe **how to get it or accomplish it.**
+- the benefit is **it is easy to learn & read**, also **the notional model is simple to understand**
+includes: 
+* procedural programming
+* object-oriented programming
+* parallel processing approach.
+- **the user is allowed to make decisions and commands to the compiler**
+- has many **side effects** and includes **mutable variables**
+- **gives full control** to developers that is very important in low-level programming
+
+
+Declarative Programming:
+- programs specify **what is to be done.**
+- simply **expresses the logic of computation**
+- main goal is **to describe the desired result without direct dictation on how to get it.**
+- the benefit  **include effective code,** which can be applied by using ways, **easy extension**, **high level of abstraction**
+includes:
+* logic programming
+* functional programming
+- **A compiler is allowed to make decisions**
+- **no side effects and does not include any mutable variables**
+- may **automate repetitive flow** with **simplifying code structure**.
+
+<!-- --------------------------------------------------------------------- -->
+
