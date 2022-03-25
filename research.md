@@ -153,7 +153,8 @@ A server stores, sends and receives data.
 
 <!--------------------------------------------------------------------------------->
 
-## Imperative and Declarative Approach in programming. [Contribution guidelines for this project](https://github.com/PragmatechEducation/FrontEnd03)
+## Imperative and Declarative Approach in programming. 
+#### [Imperative & Declarative](https://github.com/PragmatechEducation/FrontEnd03)
 
 #### Question1: What is a programming paradigm?
 **Programming paradigm** is a way to classify programming languages based on their features. There is **another definition** of programming paradigm. **A programming paradigm is a method to solve a problem using tools and techniques that are available to us following some approach.** There are a lot of well-known programming languages,however, all of them need to follow some strategy when they are implemented and this strategy/approach is a paradigm.
@@ -199,15 +200,17 @@ includes:
 - may **automate repetitive flow** with **simplifying code structure**.
 
 <!-- --------------------------------------------------------------------- -->
-## Function in Javascript
+## Function in Javascript 
+#### [JavaScript Function & Function Expressions](https://www.programiz.com/javascript/function)
+#### [JavaScript Functions](https://javascript.info/function-basics)
 
 ### What is function?
-Function is a block of code that performs a specific task.
+Function is a block of code that performs a specific task. Functions allow the code to be called many times without repetition.
 
 ### How to declare a function?
 The syntax to declare a function:
 * A function is declared using the function keyword;
-* The basic rules of naming a function are similar to naming a variable.It is better to give a descriptive name for the function. For example, if you multiply 2 numbers,it si better to name the function multiply or multiplyNumbers
+* The basic rules of naming a function are similar to naming a variable.It is better to give a descriptive name for the function. For example, if you multiply 2 numbers,it is better to name the function multiply or multiplyNumbers
 * The body of function must be written within {}
 
 ```
@@ -215,7 +218,6 @@ function nameOfFunction (){
     //function body
 }
 ```
-
 ```
 //declaring a function named greet()
 
@@ -223,5 +225,205 @@ function greet(){
     console.log("Hi");
 }
 ```
+### How to call a function?
+To use the function,we need to call it. The function can be called as many times as we need.
+```
+//function call:
+greet();
+```
+
+### Function Parameters:
+A function can also be declared with parameters.
+### What is a parameter?
+A parameter is **a value that is passed when declaring a function**
+
+```
+//declaring a function.Inside of paranthesis is a parameter.
+
+function greet(name){
+    console.log('HI')
+}
+```
+
+Note: when a **value is passed when declaring a function** it is called **parameter**
+When **the function is called**, **the value passed is called argument**
+
+### What means function return?
+The return statement means that the function has ended.Any code after return is not executed.
+If nothing is returned,then the function returns an undefined value.
+
+### What are the benefits of using functions?
+* Functions makes the code reusable,which means declare the code once, and use it multiple times;
+* functions makes the program easier as each small task is divided into a function;
+* function increases readability
+
+### What is a local variable?
+ **A local variable** is a variable **declared inside a function**. Local variable is ONLY visible INSIDE THAT FUNCTION.
+
+ ```
+ function showMessage(){
+    let message = "Hello, I'm JS"; //local variable
+    alert(message);
+ }
+
+ showMessage(); // Hello, I'm JS
+
+ alert(message); // Error! The variable is local to the function.
+ ```
+
+### What is an outer variable?
+
+A function can access an outer variable:
+
+```
+let username = 'John' // an outer variable
+
+function showMessage(){
+    let message = 'Hello, ' + userName;
+    alert(message)
+}
+
+showMessage();
+```
+
+The function has full access to the outer variable and can modify it. **The outer variable is only used if there is NO LOCAL VARIABLE**
+
+```
+let userName = 'John'; // outer variable
+
+function showMessage(){
+    userName = 'Bob'; // local variable
+
+    let message = 'Hello, ' + userName;
+    alert(message);
+}
+
+alert(userName); // John 
+
+showMessage();
+
+alert(userName); // Bob
+```
+
+### What is a global variable?
+Variables declared outside of any function are called global.
+Global variables are visible from any function(unless shadowed by locals)(если они не затенены локальными переменными)
+* minimize the use of global variables;
+* modern code has few or no globals;
+* sometimes global variables can be useful to store project-level data
+
+### What is a scope? 
+#### [JS Scope](https://linuxhint.com/javascript-global-function-block-scope-explained/)
+
+Scope determines the accesibility(visibility) of variables, objects, functions from different parts of the code.
+
+### How many types of scope are there in JS?
+Javascript has 3 types of scope:
+* Block scope
+* Function scope
+* Global scope
+
+### What is a block scope?
+Block scope is also a sub-type of local scope. Before ES6(2015), JavaScript had only Global and Function Scope. ES6 introduced two vital new JS keywords: **let and const**
+**let and const provide Block Scope in JS**
+Block Scope - variables declared inside a {} block CANNOT BE ACCESSED FROM OUTSIDE THE BLOCK.
+
+```
+Example:
+{
+    let x = 2;
+}
+// x CANNOT be used outside of {} block
+```
+
+### What about var?
+Variables declared with the var keyword can NOT have block scope.
+Variables declared inside a {} block can be accessed from outside the block.
+
+```
+{
+    var x = 2;
+}
+// x CAN be used outside the block
+```
+
+### What means Local Scope?
+Variables declared within a JS function, become LOCAL to the function. Local variables has a Function Scope.It means that they can be accessed from within the function(Доступ к ним возможен только из самой функции.). Since local variables are only recognized INSIDE their functions,variables with the same name can be used in different functions. Local variables are created when a function starts, and deleted when the function is completed.
+
+```
+// code cannot use carName
+
+function myFunction(){
+    let carName = "Volvo"; //local scope
+    // code can use carName here
+}
+// code cannot use carName
+```
+
+### What is Function Scope?
+Each function creates a new scope.Variables defined inside a function are not visible from outside the function. Variables declared with var, let and const are quite similar when declared inside a function. They all have Function Scope:
+
+```
+function myFunction() {
+  var carName = "Volvo";   // Function Scope
+}
+
+function myFunction() {
+  let carName = "Volvo";   // Function Scope
+}
+
+function myFunction() {
+  const carName = "Volvo";   // Function Scope
+}
+
+```
+
+### What is Global Scope?
+A varible declared OUTSIDE A FUNCTION becomes GLOBAL. A global variable has Global Scope.Global variables can be accessed from anywhere in JS program
+
+```
+let carName = "Volvo"; // global variable,as it is declared outside a function
+// code can use carName
+
+function myFunction(){
+    // can use carName
+}
+```
+Variables declared with var, let and const are quite similar when declared outside a block.
+They all have Global Scope
+
+```
+var x = 2;       // Global scope
+
+let x = 2;       // Global scope
+
+const x = 2;       // Global scope
+```
+
+### What are the differences between Function scope and Global scope?
+
+* The Function Scope is the accessibility(visibility) of the variables defined **inside a function,** these variables cannot be accessed from any other function or even outside the function in the main file.
+
+```
+Example:
+function abc() {
+
+year = 2021;
+
+// the "year" variable can be accessed inside this function
+
+console.log("The year is "+ Year);
+}
+
+// the "year" variable cannot be accessed outside here
+
+abc();
+```
+
+* Global Scope - A varible declared OUTSIDE A FUNCTION. Global variables can be accessed from anywhere in JS program
+
+### How does function take place in the ram?
+Function variables takes place in stack.Show the result when calling the function and then removing from the memory.
+
 
 
