@@ -199,6 +199,17 @@ includes:
 - **no side effects and does not include any mutable variables**
 - may **automate repetitive flow** with **simplifying code structure**.
 
+### Find examples from real life about imperative & declarative
+
+Imperative - sequence of actions - for example you cook paella - boiling rice, seafood.Declarative paella is cooked as visible result.
+
+### What do you think about designing programming languages?
+The style of writing code.The hierarchy of operations.
+
+### What is the difference between declarative and function?
+For us it is not important  which operations are processing in functions.
+For us it is vital that the function works itself and gives us appropriate result.
+
 <!-- --------------------------------------------------------------------- -->
 ## Function in Javascript 
 #### [JavaScript Function & Function Expressions](https://www.programiz.com/javascript/function)
