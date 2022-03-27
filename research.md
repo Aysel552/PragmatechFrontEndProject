@@ -436,5 +436,19 @@ abc();
 ### How does function take place in the ram?
 Function variables takes place in stack.Show the result when calling the function and then removing from the memory.
 
+### What is a principe of JS?
+
+### What is allocate memory-use?
+
+
+### What is memory-release?
+
+### What is garbage collection?
+JavaScript allocates memory when things (objects, strings, etc.) are created and “automatically” frees it up when they are not used anymore, a process
+
+### What is hoisting?
+
+### What is the difference between scope and hoisting?
+
 
 
