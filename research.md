@@ -521,4 +521,60 @@ Hoisting - is a mechanism where function/variables declarations in the program a
 Scope determines the accessibility(visibility) of variables in JS.There are 3 types of scope: functional, global and block.
 
 
+### Research (26-27 March)
+
+https://eloquentjavascript.net/03_functions.html
+
+#### JavaScript Functions [JS Functions](https://eloquentjavascript.net/03_functions.html)
+
+###  What is void function?
+
+### What is return function?
+
+### What is the purpose of the return keyword?
+
+#### Scope [Scope] (https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/function-scope-versus-block-scope)
+
+### What is block scope?
+
+### What is function scope?
+
+### What is global scope?
+
+#### Google V8 Engine [V8-Engine] (https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)
+
+### What is function literal?
+
+### What are V8 engine parser and AST? [V8-engine-parser-AST] (https://github.com/The-Internals/Internals-of-the-V8-Engine)
+
+#### JavaScript Data Structures [JS-Data-Structures] (https://www.freecodecamp.org/news/javascript-under-the-hood-v8/
+
+### What is index-value?
+
+### What is key-value?
+
+### What are the differences between index-value and key-value?
+
+#### Loops and Recursion [Loops-and-Recursion](https://www.freecodecamp.org/news/javascript-under-the-hood-v8/
+
+### What is while loop?
+
+### What is for loop?
+
+### What is for in loop?
+
+Next week topics:
+
+- V8 Execution Context
+- Memory Heap
+- Event Loop
+- Parser
+- AST
+- Binary Code
+- JİT
+- Javascript objects
+
+
+
+
 
