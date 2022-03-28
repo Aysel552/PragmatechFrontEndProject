@@ -464,7 +464,7 @@ JavaScript allocates memory when things (objects, strings, etc.) are created and
 ### What is dynamic allocation?
 **Dynamic Allocation** - is done during program execution:
 
-* * once the memory is allocated,the memory size can change
+* once the memory is allocated,the memory size can change
 * Size must be unknown at compile time
 * Performed at run time
 * Assigned to the heap
