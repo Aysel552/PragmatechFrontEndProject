@@ -438,13 +438,39 @@ Function variables takes place in stack.Show the result when calling the functio
 
 ### What is a principe of JS?
 
-### What is allocate memory-use?
+### How many steps are in memory-life cycle?
+* Allocate memory
+* Use memory
+* Release memory
 
+### What is allocate memory?
+**Allocate memory** - memory is allocated (выделена) by the operating system which allows the program to use it. For intance in low-level languages (C) this operation should be handle by developer.In contrast, in high-level languages,this operation is taken care of for you.
 
-### What is memory-release?
+### What is use memory?
+**Use memory** - this is the time when the program actually makes use of the previously allocated memory.(это время, когда ваша программа фактически использует ранее выделенную память). Read and write operations are taking place as you’re using the allocated(выделенные) variables in your code.
+
+### What is release memory?
+**Release memory** - now is the time to release the entire memory that you don't need so that it can become free and available again.
+
+### What is static allocation?
+**Static Allocation** - is done before program execution:
+* once the memory is allocated,the memory size cannot change
+* Size must be known at compile time 
+* Performed at compile time
+* Assigned to the stack
+* FILO(first-in,last-out)
+
+### What is dynamic allocation?
+**Dynamic Allocation** - is done during program execution:
+
+* * once the memory is allocated,the memory size can change
+* Size must be unknown at compile time
+* Performed at run time
+* Assigned to the heap
+* No particular order of assignment
 
 ### What is garbage collection?
-JavaScript allocates memory when things (objects, strings, etc.) are created and “automatically” frees it up when they are not used anymore, a process
+JavaScript allocates memory when things (objects, strings, etc.) are created and “automatically” frees it up when they are not used anymore, this process is called **garbage collection.**
 
 ### What is hoisting?
 
