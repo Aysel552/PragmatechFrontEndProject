@@ -437,6 +437,7 @@ abc();
 Function variables takes place in stack.Show the result when calling the function and then removing from the memory.
 
 ### What is a principe of JS?
+JavaScript allocates memory when things (objects, strings, etc.) are created and “automatically” frees it up when they are not used anymore, a process called garbage collection. This seemingly “automatical” nature of freeing up resources is a source of confusion and gives JavaScript (and other high-level-language) developers the false impression they can choose not to care about memory management.
 
 ### How many steps are in memory-life cycle?
 * Allocate memory
@@ -473,8 +474,51 @@ Function variables takes place in stack.Show the result when calling the functio
 JavaScript allocates memory when things (objects, strings, etc.) are created and “automatically” frees it up when they are not used anymore, this process is called **garbage collection.**
 
 ### What is hoisting?
+**Hoisting** is a process whereby the interpreter appears to move the declaration of functions,variables or classes to the top of their scope, prior(before) execution of the code.
+
+In other words:
+**Hoisting** is a mechanism where function/variables declarations in the program are moved to the top of their scope before code execution.
+
+* In addition,hoisting allows functions to be safely used in code before they are declared;
+* variable and class declarations are also hoisted, so they can be referenced(ссылаться) before they are declared.However it can lead unexpected errors and NOT generally recommended.
+
+One of the advantages of hoisting is that it lets you use a function before you declare it in your code.
+
+```
+Example:
+
+catName("Tiger"); // hoisting
+
+function catName(name) {
+  console.log("My cat's name is " + name);
+}
+/*
+The result of the code above is: "My cat's name is Tiger"
+*/
+```
+**var hoisting**
+Here we declare then initialize the value of a var after using it. The default initialization of the var is undefined.
+
+```
+console.log(num); // Returns 'undefined' from hoisted var declaration (not 6)
+var num; // Declaration
+num = 6; // Initialization
+console.log(num); // Returns 6 after the line with initialization is executed.
+```
+
+**let and const hoisting**
+Variables declared with let and const are also hoisted but, unlike var, are not initialized with a default value
+
+```
+console.log(num); // Throws ReferenceError exception as the variable value is uninitialized
+let num = 6; // Initialization
+```
 
 ### What is the difference between scope and hoisting?
+
+Hoisting - is a mechanism where function/variables declarations in the program are **moved to the top of their scope** before code execution.
+
+Scope determines the accessibility(visibility) of variables in JS.There are 3 types of scope: functional, global and block.
 
 
 
