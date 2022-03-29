@@ -529,6 +529,7 @@ https://eloquentjavascript.net/03_functions.html
 
 ###  What is void function?
 
+
 ### What is return function?
 
 ### What is the purpose of the return keyword?
@@ -562,6 +563,48 @@ https://eloquentjavascript.net/03_functions.html
 ### What is for loop?
 
 ### What is for in loop?
+
+### What is recursion?
+**Recursion** - when a function calls itself until someone stops it. 
+Note: if no one stops it, then it will recurse(call itself) forever.
+
+**Recursive functions** let me perform a unit of work multiple times.This is what for/while loops let us accomplish.
+
+```
+Example of Recursive approach:
+Let's create a function that counts down from a given number.
+
+function countDownFrom(number){
+    if (number === 0){
+        return;
+    }
+
+    console.log(number);
+    countDownFrom(number - 1);
+}
+countDownFrom(5);
+
+```
+
+```
+Imperative approach (loops):
+
+function countDownFrom(number) {
+	for (let i = number; i > 0; i--) {
+		console.log(i);
+	}	
+}
+
+countDownFrom(5);
+// 5
+// 4
+// 3
+// 2
+// 1
+
+```
+
+
 
 Next week topics:
 
