@@ -527,12 +527,97 @@ https://eloquentjavascript.net/03_functions.html
 
 #### JavaScript Functions [JS Functions](https://eloquentjavascript.net/03_functions.html)
 
+### How many ways are there to declare functions?
+There are 3 ways to declare function:
+
+* Function Declaration:
+Example:  function Sum()
+
+* Function Assignment:
+Example: const Sum = function(){
+    Note: function without a name is anonymous function.
+}
+
+* Arrow Function:
+Example: const Sum = () => {}
+
+### Describe the features of a function.
+* single responsibility: Each function should perform a single task at a time;
+* reusability: Function should be reusable. We can gain it using parameters and arguments
+
+```
+Example:
+function calculateSum(x,y){
+    z= x + y;
+    console.log(z)
+}
+
+calculateSum(7,9);
+```
+
+### How to write a function if some users have the same surname?
+
+```
+function printNames(firstname, lastname = "Johson"){
+    let fullname = `${firstname} - ${lastname}
+    console.log(fullname)
+}
+
+printNames("Ays")
+printNames("Ays")
+printNames("Ays", "Liamon")
+printNames("Ays")
+```
+
 ###  What is void function?
+**When a function is void, it means that the function returns nothing**
+- This operator specifies an expression to be evaluated without returning a value.
 
 
 ### What is return function?
+**The return statement** stops the execution of a function and returns a value.
+
+A return statement determines the value the function returns.(Оператор return определяет значение, которое возвращает функция.) 
+
+- The function will stop executing when the return statement is called.
+
+- The return statement should be the last statement in a function because the code after the return statement will be unreachable.
+
+- We can return primitive values (such as Boolean, number, string, etc.) and Object types (such as functions, objects, arrays, etc.) by using the return statement.
+
+- We can also return multiple values using the return statement. It cannot be done directly. We have to use an Array or Object to return multiple values from a function.
+-  If the expression is not specified, the function returns undefined.
+
+```
+return expression;
+undefined
+```
+
+```
+function TotalSalaries(){
+    let tSalary = 8000;
+    return tSalary;
+}
+
+function NumberOfEmployes(){
+    let nEmployes = 10;
+    return nEmployes;
+}
+
+function AverageSalary(){
+    let aSalry = TotalSalaries() / NumberOfEmployes ();
+    console.log(aSalary);
+    }
+
+    AverageSalary();
+
+```
+
+The return statement is used to return a particular value from the function to the function caller. When control comes across such a statement, it immediately jumps out of the current function and gives the returned value to the code that called the function.(Когда элемент управления сталкивается с таким оператором, он немедленно выходит из текущей функции и передает возвращенное значение коду, вызвавшему функцию.) **A return keyword without an expression** after it will cause the function to **return undefined**.
+
 
 ### What is the purpose of the return keyword?
+The main purpose of return ketword is taking the value from the local scope and prepare the value for using in global scope.
 
 #### Scope [Scope] (https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/function-scope-versus-block-scope)
 
