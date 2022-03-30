@@ -12,3 +12,9 @@ let students = {
 //expected output
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
+
+console.log(students["adlar"][0], students["soyadlar"][0], students["yaslar"][0])
+console.log(students["adlar"][1], students["soyadlar"][1], students["yaslar"][1])
+console.log(students["adlar"][2], students["soyadlar"][2], students["yaslar"][2])
+console.log(students["adlar"][3], students["soyadlar"][3], students["yaslar"][3])
+console.log(students["adlar"][4], students["soyadlar"][4], students["yaslar"][4])
