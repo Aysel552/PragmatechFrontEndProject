@@ -26,8 +26,14 @@ let students = [{
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
 
+// 1st Option:
 console.log("Ad: " + students[0]["ad"] + " Soyad: " + students[0]["soyad"] + " Yas: " + students[0]["yas"])
 console.log("Ad: " + students[1]["ad"] + " Soyad: " + students[1]["soyad"] + " Yas: " + students[1]["yas"])
 console.log("Ad: " + students[2]["ad"] + " Soyad: " + students[2]["soyad"] + " Yas: " + students[2]["yas"])
 console.log("Ad: " + students[3]["ad"] + " Soyad: " + students[3]["soyad"] + " Yas: " + students[3]["yas"])
 console.log("Ad: " + students[4]["ad"] + " Soyad: " + students[4]["soyad"] + " Yas: " + students[4]["yas"])
+
+// 2nd option
+for(let i = 0; i<students.length;i++){
+  console.log("Ad: " + students[i].ad + "  Soyad: " + students[i].soyad + "  Yas: " + students[i].yas)
+}
