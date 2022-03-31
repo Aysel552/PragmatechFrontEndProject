@@ -733,11 +733,95 @@ Objects are presented with a set of characteristics.These characteristics are ca
 
 #### Loops and Recursion [Loops-and-Recursion](https://www.freecodecamp.org/news/quick-intro-to-recursion/)
 
+### What is a loop?
+Loops can execute a block of code a number of times.Often loops are working with arrays:
+
+```
+Example:
+Arrays presenting with indexes:
+text += cars[0] + "<br>";
+text += cars[1] + "<br>";
+text += cars[2] + "<br>";
+text += cars[3] + "<br>";
+text += cars[4] + "<br>";
+text += cars[5] + "<br>";
+
+Instead of writing a bunch of code as above,you can write the following:
+
+for (i = 0; i < cars.length; i++){
+    text +=cars[i] = "<br>";
+}
+```
+
 ### What is while loop?
+The while loop loops through a block of code as long as a specified condition is true.
+The syntax of while loop:
+```
+while(condition){
+    // code block to be executed
+}
+```
+
+```
+Example:
+
+let i = 0;
+
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+```
 
 ### What is for loop?
+For - loops through a block of code a number of times.The syntax of for loop is the following:
+
+```
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+
+Statement 1 is executed (one time) before the execution of the code block.
+Statement 2 defines the condition for executing the code block.
+Statement 3 is executed (every time) after the code block has been executed.
+```
+
+```
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+  Statement 1 sets a variable before the loop starts (let i = 0).
+  Statement 2 defines the condition for the loop to run (i must be less than 5).
+  Statement 3 increases a value (i++) each time the code block in the loop has been executed.
+```
 
 ### What is for in loop?
+
+For in statement loops through the properties of an Object.
+
+The syntax of for in statement:
+
+```
+for (key in object) {
+  // code block to be executed
+}
+```
+
+```
+const person = {fname:"John", lname:"Doe", age:25};
+
+for (let x in person){
+    console.log(person[x])
+}
+Example Explained:
+
+The for in loop iterates over a person object
+Each iteration returns a key (x)
+The key is used to access the value of the key
+The value of the key is person[x]
+
+```
 
 ### What is recursion?
 **Recursion** - when a function calls itself until someone stops it. 
