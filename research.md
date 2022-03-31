@@ -617,16 +617,52 @@ The return statement is used to return a particular value from the function to t
 
 
 ### What is the purpose of the return keyword?
-The main purpose of return ketword is taking the value from the local scope and prepare the value for using in global scope.
+The main purpose of return keyword is taking the value from the local scope and prepare the value for using in global scope.
 
 #### Scope [Scope] (https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-jquery/function-scope-versus-block-scope)
 
 ### What is block scope?
+Block scope is a sub-type of local scope. Block scope presents in {} curly braces. Also block scope presents  in if, switch conditions or for and while loops. In ES6, const and let keywords allow to declare variables in block scope,which means those variables exist ONLY within the corresponding block.Variables declared inside a {} block CANNOT BE ACCESSED FROM OUTSIDE THE BLOCK.
+
+```
+EXAMPLE:
+if (true){
+    let fruit1 = "apple";
+    const fruit2 = "banana"
+}
+```
 
 ### What is function scope?
+Variables declared within the function.Whenever you declare a variable in a function,the variable is visible only within the function.You CANNOT ACCESS IT OUTSIDE THE FUNCTION.Var is the keyword to define variable for a function-scope accessibility.
+
+```
+Example:
+function defineFruit(){
+    var fruit = 'apple';
+    console.log("Selected: ", fruit);
+}
+
+defineFruit() // Selected: apple
+
+console.log(fruit);  // fruit is not define
+
+```
 
 ### What is global scope?
+A variable declared OUTSIDE A FUNCTION becomes global. Global variables can be accessed from anywhere in JS program. There's only one Global scope in the JavaScript document. The area outside all the functions is consider the global scope and the variables defined inside the global scope can be accessed and altered in any other scopes.
 
+```
+Example:
+var fruit = "apple"
+console.log(fruit);
+
+function getFruit(){
+    console.log(fruit); //fruit is accessible here
+}
+
+getFruit();
+
+```
 #### Google V8 Engine [V8-Engine] (https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)
 
 ### What is function literal?
