@@ -666,9 +666,27 @@ getFruit();
 #### Google V8 Engine [V8-Engine] (https://www.freecodecamp.org/news/javascript-under-the-hood-v8/)
 
 ### What is function literal?
+JavaScript functions are declared using a function literal. A function literal is an expression of defining an unnamed or anonymous function.  A function literal consists of 4 parts:
+* The function keyword.
+* An optional name that, if specified, must be a valid JavaScript identifier.
+* A list of parameter names enclosed in parentheses. If there are no parameters to the function, you need to provide empty parentheses.
+* The body of the function as a series of JavaScript statements enclosed in braces.
+
+```
+function add(a,b){
+  return a+b;
+}
+```
 
 ### What are V8 engine parser and AST? [V8-engine-parser-AST] (https://github.com/The-Internals/Internals-of-the-V8-Engine)
+ Once the code is received, we need to change the code in a way that the compiler can understand. This process is called parsing. Parsing consists of 2 parts: scanner and the parser.
 
+ The parser  picks the code up and creates AST(Abstract Syntax Tree)
+
+ AST(Abstract Syntax Tree) is a tree representation of the source code.
+ (AST) or “Abstract Syntax Tree” — is a way of representing the syntax of a programming language as a hierarchical tree-like structure.
+
+ Each node of the tree denotes a construct occurring in the code.(Каждый узел дерева обозначает конструкцию, встречающуюся в коде.)
 
 #### JavaScript Data Structures [JS-Data-Structures] (https://javascript.info/array)
 
