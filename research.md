@@ -669,15 +669,69 @@ getFruit();
 
 ### What are V8 engine parser and AST? [V8-engine-parser-AST] (https://github.com/The-Internals/Internals-of-the-V8-Engine)
 
-#### JavaScript Data Structures [JS-Data-Structures] (https://www.freecodecamp.org/news/javascript-under-the-hood-v8/
+
+#### JavaScript Data Structures [JS-Data-Structures] (https://javascript.info/array)
 
 ### What is index-value?
+Index-value is an array. Arrays are a special type of variable that is also mutable and can also be used to store a list of values. Arrays in JavaScript are written with square brackets.[]
+Array items are separated by commas. Array indexes are zero-based, which means the first item is [0],second is [1].
+
+```
+const cars = ["Saab", "Volvo", "BMW"]
+```
+
+We can replace an element in array:
+```
+cars[1] = 'Porsche'
+```
+
+…Or add a new one to the array:
+
+```
+cars[3] = 'Porsche';
+```
+
+The total count of the elements in the array is its length:
+
+```
+const cars = ["Saab", "Volvo", "BMW"];
+alert(cars.length) //3
+```
+
+An array can store elements of any type.
+
+```
+// mix of values
+let arr = [ 'Apple', { name: 'John' }, true, function() { alert('hello'); } ];
+
+// get the object at index 1 and then show its name
+alert( arr[1].name ); // John
+
+// get the function at index 3 and run it
+arr[3](); // hello
+```
 
 ### What is key-value?
+Key-value is an object. Objects represent a special data type that is mutable and can be used to store a collection of data (rather than just a single value). Objects in JavaScript are written with curly braces {}. Object properties are written as name: key-value pairs, separated by commas. In objects, the characteristics are called properties that consist of a key and a value.
+
+```
+const person = {
+    firstName: "John",
+    lastName: "Johnson",
+    age: 50,
+    eyeColor: "blue"
+}
+```
 
 ### What are the differences between index-value and key-value?
 
-#### Loops and Recursion [Loops-and-Recursion](https://www.freecodecamp.org/news/javascript-under-the-hood-v8/
+Arrays are used when we want to create and store a list of multiple items in a single variable.Arrays are especially useful when creating ordered collections where items in the collection can be accessed by their numerical position in the list. 
+
+Objects are presented with a set of characteristics.These characteristics are called properties. that consist of a key and a value.
+
+**Note: Objects represent “things” with characteristics (aka properties), while arrays create and store lists of data in a single variable.**
+
+#### Loops and Recursion [Loops-and-Recursion](https://www.freecodecamp.org/news/quick-intro-to-recursion/)
 
 ### What is while loop?
 
