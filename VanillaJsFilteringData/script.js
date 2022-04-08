@@ -1,14 +1,3 @@
-// 1 Countries:
-
-
-
-
-
-// Just type the function that returns the array of country names
-// Write a function that returns an object with the number of countries by letter. Example {"A": 20, "B": 15}
-// Write a function, according to the letter write the number of countries (Hərfə görə ölkə sayının olduğu object return edən funksiya yazın. Nümunə {"A":20,"B":15})
-// Type the function that returns the name of the country with the most cities
-//  Enter the function that returns the cities of the country with the longest country name.
 
 
 // 2 sampleNews
@@ -30,28 +19,28 @@ its acronym was introduced later by Michael Feathers. Uncle Bob is also
 the author of best-selling books Clean Code, Clean Architecture, 
 Agile Software Development: Principles, Patterns, and Practices.`
 
-// Write a function that returns the number of characters in the text
+// 1  Write a function that returns the number of characters in the text
 function NumberOfCharacters() {
     return sampleNews.length;
 }
 console.log(NumberOfCharacters())
-// ///////////////////////////////////////////////////////////////////
+// 2 ///////////////////////////////////////////////////////////////////
 
-// Write a function that returns the number of spaces in the text
+// 3 Write a function that returns the number of spaces in the text
 function calculateSpaces() {
     return sampleNews.split(" ").length - 1
 }
 console.log(calculateSpaces())
-// //////////////////////////////////////////////////////////////////
+// 4 //////////////////////////////////////////////////////////////////
 
-//  Write a function that returns the number of sentences in the text
+// 5 Write a function that returns the number of sentences in the text
 function sentenceCount() {
     return sampleNews.split(".").length;
 }
 console.log(sentenceCount());
 
 // //////////////////////////////////////////////////////////////////
-// Write a function that returns the number of words in the text
+// 6 Write a function that returns the number of words in the text
 function wordCount() {
     return sampleNews.split(' ').length;
 }
@@ -59,7 +48,7 @@ console.log(wordCount());
 
 // /////////////////////////////////////////////////////////////////
 
-// Write a function that returns the number of letters in the text
+// 7 Write a function that returns the number of letters in the text
 function calculateLetters() {
     return sampleNews.split(" ").length - 1
 }
@@ -67,9 +56,24 @@ console.log(calculateLetters())
     
 // ////////////////////////////////////////////////////////////////
 
-// Write a function that returns an array of all uppercase letters in the text
-// Write a function that returns random text between 40 and 50 characters in length
-// If the selected text length divides the word, you must delete that word. 
-//For example, if the end of the selected text ends in the camel part of the word developers, 
+// 8 Write a function that returns an array of Capitalized letters in the text
+
+function onlyUpperCaseLetters() {
+
+    for (let i = 0; i < sampleNews.length; i++){
+        
+        if (sampleNews[i].match(/[A-Z]/)) {
+            
+        }
+
+    }
+
+    return sampleNews;
+}
+
+
+// 9 Write a function that returns random text between 40 and 50 characters in length
+//  If the selected text length divides the word, you must delete that word. 
+//  For example, if the end of the selected text ends in the camel part of the word developers, 
 // the word developers must be deleted
-// Write a function that returns an array of words which starts with a capital letter within the text
+// 10 Write a function that returns an array of words which starts with a capital letter within the text
