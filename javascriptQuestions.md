@@ -216,7 +216,75 @@ const child2Ofparent2 = parent2.childNodes[1]
 
 ### Question3: What are the differences between DOM Element and DOM Node?
 
+The Document Object Model (DOM) is an interface that treats HTML or XML document as a tree structure, where each node is an object of the document. DOM also provides a set of methods to query the tree, alter the structure, style. 
+
+#### DOM Node
+DOM document consists of a hierarchy of nodes. Each node can have a parent and/or children.
+
+![DOM Nodes](/image/dom-nodes.png)
+
+```
+Explanation the scheme above:
+
+<html> is a node in the document tree. It has 2 children: <head> and <body> nodes.
+
+<body> is also a node having 3 children: a comment <!-- Page Body -->, heading <h2>, and paragraph <p>. The parent of the <body> node is <html> node.
+
+The tags in the HTML document represent a node, what's interesting is that regular text is also a node. The paragraph node <p> has 1 child: the text node "Thank you for visiting my web page!".
+```
+
+#### Node Types
+How can you distinguish these different types of nodes? The answer lays in the DOM Node interface, particularly in the Node.nodeType property.
+
+Node.nodeType can have one of the following values that represents the type of the node:
+
+- Node.ELEMENT_NODE
+- Node.ATTRIBUTE_NODE
+- Node.TEXT_NODE
+- Node.CDATA_SECTION_NODE
+- Node.PROCESSING_INSTRUCTION_NODE
+- Node.COMMENT_NODE
+- Node.DOCUMENT_NODE
+- Node.DOCUMENT_TYPE_NODE
+- Node.DOCUMENT_FRAGMENT_NODE
+- Node.NOTATION_NODE
+
+
+#### DOM Element
+
+An element is a node that's written using a tag in the HTML document. <html>, <head>, <title>, <body>, <h2>, <p> are all elements because they are represented by tags. **The document type, the comment, the text nodes aren't elements** because they are not written with tags.
+
+Node is constructor of a node, and HTMLElement is a constructor of an element in JavaScript DOM. A paragraph, being a node and also an element, is an instance of both Node and HTMLElement:
 
 ### Question4: What do I need to do to delete any element that exists within HTML? (Что мне нужно сделать, чтобы удалить любой элемент, существующий в HTML?)
+
+We need to use **removeChild()** method to remove a child node from a parent node.
+The childNode is the child node of the parentNode that you want to remove. The removeChild() returns the removed child node from the DOM tree but keeps it in the memory, which can be used later.
+
+If you don’t want to keep the removed child node in the memory, you use the following syntax:
+
+```
+parentNode.removeChild(childNode);
+```
+
+The child node will be in the memory until it is destroyed by the JavaScript garbage collector.
+Removing all child nodes of an element:
+
+- Get the first node of the element using the firstChild property.
+- Repeatedly removing the child node until there are no child nodes left.
+
+Also, it is possible to remove all child nodes using innerHTML:
+
+```
+let menu = document.getElementById('menu');
+menu.innerHTML = '';
+```
+
+```
+let menu = document.getElementById('menu');
+while (menu.firstChild) {
+    menu.removeChild(menu.firstChild);
+}
+```
 
 ### Question5: What do I need to do to copy an element in HTML and paste it into another element? (Что мне нужно сделать, чтобы скопировать элемент в HTML и вставить его в другой элемент?)
