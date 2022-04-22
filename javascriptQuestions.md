@@ -288,3 +288,6 @@ while (menu.firstChild) {
 ```
 
 ### Question5: What do I need to do to copy an element in HTML and paste it into another element? (Что мне нужно сделать, чтобы скопировать элемент в HTML и вставить его в другой элемент?)
+The .appendChild() method is an in-built JavaScript function that is used to add a child node under a parent node. The .appendChild() performs this feat by making use of the DOM Node Interface. 
+
+For this we need to use appendChild() method. This method is also used to move an element from one element to another element.This method accepts a single parameter node which is mandatory and used to specify the node object which needs to be appended.
