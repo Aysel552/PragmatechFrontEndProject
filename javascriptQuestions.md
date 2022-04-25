@@ -350,12 +350,13 @@ In contrast, the following properties are elements or collection of elements(HTM
 
 ![Element Properties](/image/elements-properties.png)
 
-
-
-
-
-
-
 ### Question55: What do nextSibling and nextElementSibling methods do and what are the differences between them?
+
+**nextSibling** returns the next node(an element node,a text node,comment node).Whitespace between elements are also text nodes.
+
+**nextElementSibling** returns the next element (not text and comment nodes)
+
+The difference between nextSibling and nextElementSibling, is that nextSibling returns the next sibling node as an element node, a text node or a comment node, while nextElementSibling returns the next sibling node as an element node (ignores text and comment nodes).
+
 
 ### Question56: What are the differences between HTML Events and JavaScript Events?
