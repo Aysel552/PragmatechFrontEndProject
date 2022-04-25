@@ -360,3 +360,31 @@ The difference between nextSibling and nextElementSibling, is that nextSibling r
 
 
 ### Question56: What are the differences between HTML Events and JavaScript Events?
+
+#### What is Event?
+
+JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page.
+
+When the page loads, it is called an event. When the user clicks a button, that click too is an event. Other examples include events like pressing any key, closing a window, resizing a window, etc.
+
+**HTML Events** - HTML has the ability to let events trigger actions in a browser, like starting a JS when a user clicks on an element. Below are some examples of HTML events:
+
+```
+- An HTML web page has finished loading
+- An HTML input field was changed
+- An HTML button was clicked
+```
+
+HTML allows event handler attributes, with JavaScript code, to be added to HTML elements. For instance, onclick attribute (with code), is added to a <button> element:
+
+```
+<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+```
+
+#### Common HTML Events:
+
+![Common HTML Events](/image/Common-HTML-Events.png)
+
+
+
+**JavaScript Events** - 
