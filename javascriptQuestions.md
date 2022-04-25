@@ -291,3 +291,71 @@ while (menu.firstChild) {
 The .appendChild() method is an in-built JavaScript function that is used to add a child node under a parent node. The .appendChild() performs this feat by making use of the DOM Node Interface. 
 
 For this we need to use appendChild() method. This method is also used to move an element from one element to another element.This method accepts a single parameter node which is mandatory and used to specify the node object which needs to be appended.
+
+
+### Question54: What is the difference between DOM Node and DOM Element?
+
+**DOM** (Document Object Model) is a hierarchy of nodes. Each node can have a parent and/or children. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
+
+Nodes can also have event handlers attached to them. Once an event is triggered, the event handlers get executed.
+
+ Generally speaking, a node is any DOM object. An element is one of specific type of node as there are many other types of nodes(text nodes,comment nodes,document nodes and so on).
+
+The Document Object Model (DOM) is an interface that treats HTML or XML document as a tree structure, where each node is an object of the document. DOM also provides a set of methods to query the tree, alter the structure, style. 
+
+#### DOM Node
+DOM document consists of a hierarchy of nodes. Each node can have a parent and/or children.
+
+![DOM Nodes](/image/dom-nodes.png)
+
+```
+Explanation the scheme above:
+
+<html> is a node in the document tree. It has 2 children: <head> and <body> nodes.
+
+<body> is also a node having 3 children: a comment <!-- Page Body -->, heading <h2>, and paragraph <p>. The parent of the <body> node is <html> node.
+
+The tags in the HTML document represent a node, what's interesting is that regular text is also a node. The paragraph node <p> has 1 child: the text node "Thank you for visiting my web page!".
+```
+
+#### Node Types
+How can you distinguish these different types of nodes? The answer lays in the DOM Node interface, particularly in the Node.nodeType property.
+
+Node.nodeType can have one of the following values that represents the type of the node:
+
+- Node.ELEMENT_NODE
+- Node.ATTRIBUTE_NODE
+- Node.TEXT_NODE
+- Node.CDATA_SECTION_NODE
+- Node.PROCESSING_INSTRUCTION_NODE
+- Node.COMMENT_NODE
+- Node.DOCUMENT_NODE
+- Node.DOCUMENT_TYPE_NODE
+- Node.DOCUMENT_FRAGMENT_NODE
+- Node.NOTATION_NODE
+
+
+#### DOM Element
+
+An element is a node that's written using a tag in the HTML document. <html>, <head>, <title>, <body>, <h2>, <p> are all elements because they are represented by tags. **The document type, the comment, the text nodes aren't elements** because they are not written with tags.
+
+Node is constructor of a node, and HTMLElement is a constructor of an element in JavaScript DOM. A paragraph, being a node and also an element, is an instance of both Node and HTMLElement.
+
+#### DOM Properties: nodes and elements:
+Distinguish the DOM properties that contain specifically only nodes, or only elements. The following properties of Node type evaluate to a node or a collection of nodes (NodeList):
+
+![Node Properties](/image/node-properties.png)
+
+In contrast, the following properties are elements or collection of elements(HTMLCollection):
+
+![Element Properties](/image/elements-properties.png)
+
+
+
+
+
+
+
+### Question55: What do nextSibling and nextElementSibling methods do and what are the differences between them?
+
+### Question56: What are the differences between HTML Events and JavaScript Events?
