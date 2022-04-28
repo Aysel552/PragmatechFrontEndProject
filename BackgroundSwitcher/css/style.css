@@ -1,0 +1,58 @@
+body{
+    background-color: #000000;
+    transition: all 200ms linear;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #fff;
+    padding: 200px 200px;
+    width: 60%;
+    height: 60%;
+}
+
+.switcher{
+    background-color: #87B0FF;
+    width: 100px;
+    height: 60px;
+    margin: 0 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 200ms linear;
+}
+
+.turn{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 200ms linear;
+    transform: translateX(10px) !important;
+}
+
+.turnOff {
+    transform: translateY(43px) !important;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.light{
+    color: #000000;
+}
+
+.dark{
+    color: rgb(134,134,134);
+}
+
