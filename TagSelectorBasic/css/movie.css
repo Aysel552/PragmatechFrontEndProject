@@ -108,6 +108,20 @@ a{
     color: #fff;
 }
 
+.checked {
+    background-color: #7fc4fa !important;
+    color: white !important;
+}
+
+i{
+    display: none;
+}
+
+.inline {
+    display: inline !important;
+}
+
+
 .select{
     background-color: rgb(13, 153, 234);
     color: #fff;
