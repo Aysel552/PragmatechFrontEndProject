@@ -1,13 +1,12 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -17,7 +16,7 @@ body{
     height: 100vh;
 }
 
-body .main-container{
+body .main-container {
     margin: auto;
     background: #fff;
     position: relative;
@@ -28,14 +27,14 @@ body .main-container{
     border-radius: 1rem;
 }
 
-body .main-container .main-container-movies{
+body .main-container .main-container-movies {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 4rem;
 }
 
-body .main-container .main-container-movies .main-container-movies-head h1{
+body .main-container .main-container-movies .main-container-movies-head h1 {
     font-size: 2rem;
     font-weight: 750;
     margin: 2rem 0;
@@ -109,7 +108,3 @@ body .main-container .main-container-search input {
     background-color: #7fc8ff;
     color: white;
 }
-
-
-
-
