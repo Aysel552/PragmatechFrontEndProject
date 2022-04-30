@@ -94,3 +94,7 @@ span {
 .checkbox:checked + .label .ball{
     transform: translateX(24px);
 }
+
+.turnOff {
+    transform: translateY(43px) !important;
+}

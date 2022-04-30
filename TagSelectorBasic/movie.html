@@ -10,37 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ac3077be4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <div class="main">
-    <div class="container">
-        <div class="container-form">
-            <div class="container-form-heading">
-                <h2>Select your favorite movies</h2>
+<div class="main">
+    <div class="main-container">
+        <div class="main-container-movies">
+            <div class="main-container-movies-head">
+                <h1>Select your favorite movies</h1>
             </div>
-                
-                <div class="container-form-content">
-                <a href="" class="btn btn-primary select">Avengers <i class="fa-solid fa-circle-check"></i> </a>
-                <a href="" class="btn btn-primary">Shutter Island <i class="fa-solid fa-circle-check"></i> </a>
-                <a href="" class="btn btn-primary">Kong: Skull Island <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">Grand Budapest Hotel <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">Inception <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">The Shawshank Redemption <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">Se7en <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary select">The Dark Knight <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">Goodfellas <i class="fa-solid fa-circle-check"></i></a>
-                <a href="" class="btn btn-primary">The Matrix <i class="fa-solid fa-circle-check"></i></a>
+            <div class="main-container-movies-content">
+                <p onclick="select(e)">Avengers</p>
+                <p onclick="select(event)">Shutter Island</p>
+                <p onclick="select(event)">Kong: Skull Island</p>
+                <p onclick="select(event)">Grand Budapest Hotel</p>
+                <p onclick="select(event)">Inception</p>
+                <p onclick="select(event)">The Shawshank Redemption</p>
+                <p onclick="select(event)">Se7en</p>
+                <p onclick="select(event)">The Dark Knight</p>
+                <p onclick="select(event)">Goodfellas</p>
+                <p onclick="select(event)">The Matrix</p>
+            </div>
+            <div class="main-container-square"></div>
+            <div class="main-container-circle"></div>
+        </div>
+        <div class="main-container-search">
+            <input type="text" placeholder="Add your own movie tags" />
+        </div>
+    </div>
 </div>
-</div>
-
-
-<div class="movie-addition">
-    <input type="text" placeholder="Add your own movie tags">
-</div>
-</div>
-   </div>
-
-<link rel="stylesheet" href="script.js">
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,119 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
 body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7fc8ff;
+    height: 100vh;
+}
+
+body .main-container{
+    margin: auto;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60rem;
+    border-radius: 1rem;
+}
+
+body .main-container .main-container-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+body .main-container .main-container-movies .main-container-movies-head h1{
+    font-size: 2rem;
+    font-weight: 750;
+    margin: 2rem 0;
+}
+
+body .main-container .main-container-movies .main-container-movies-content {
+    margin: auto 0;
+}
+
+body .main-container .main-container-movies .main-container-movies-content p {
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    color: black;
+    background-color: #f8fcff;
+    border: 0.1rem solid #7fc8ff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+body .main-container .main-container-movies .main-container-movies-content p i {
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+body .main-container .main-container-movies .main-container-movies-content .activeName {
+    background-color: #7fc8ff;
+    color: #fff;
+}
+
+body .main-container .main-container-movies .main-container-square {
+    position: absolute;
+    background-color: #e3f3ff;
+    width: 3rem;
+    height: 3rem;
+    top: 0;
+}
+
+
+body .main-container .main-container-movies .main-container-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10rem;
+    height: 10rem;
+    border-top: 0;
+    border-left: 2rem solid #e3f3ff;
+    border-right: 0;
+    border-bottom: 2rem solid #e3f3ff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 100%;
+}
+
+body .main-container .main-container-search {
+    background-color: #f2faff;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4rem;
+}
+
+
+body .main-container .main-container-search input {
+    border: 0.1rem solid #7fc8ff;
+    width: 100%;
+    padding: 1.3rem 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.activeName {
+    background-color: #7fc8ff;
+    color: white;
+}
+
+
+
+
+/* body{
     background-color: #131313;
     font-size: 15px;
 }
@@ -133,32 +248,4 @@ i{
 }
 
 
-/* Mobile Adaptation */
 
-@media screen and (max-width: 500px) {
-
-
-    
-        .container {
-            width: 200px;
-            box-sizing: border-box;
-            background-color: #fff;
-            position: absolute;
-            top: 20%;
-            left: 10%;
-            transform: translate(-2%, 15%);
-            overflow: hidden;
-            border-radius: 27px;
-            padding: 5px;
-        }
-
-    
-    .container-form{
-        padding: 10px 20px 10px 20px;
-    }
-
-
-    .container-form {
-        padding: 10px 20px 10px 20px;
-    }
-}
