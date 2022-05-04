@@ -385,6 +385,12 @@ HTML allows event handler attributes, with JavaScript code, to be added to HTML 
 
 ![Common HTML Events](/image/Common-HTML-Events.png)
 
-
-
 **JavaScript Events** - 
+
+
+### Question57:
+
+
+### Question58:
+
+### Question59:
