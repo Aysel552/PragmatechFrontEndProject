@@ -388,9 +388,9 @@ HTML allows event handler attributes, with JavaScript code, to be added to HTML 
 **JavaScript Events** - 
 
 
-### Question57:
+### Question57: .call(),.apply(),bind() metodları arasında ortaq və fərqli cəhətləri yazın (Write the common and differences between the .call (), apply (), and bind () methods)
 
 
-### Question58:
+### Question58: lambda expression nədir? Hansı hallarda istifadə olunması tövsiyə olunandır? (What is lambda expression? In what cases it is recommended to use?)
 
-### Question59:
+### Question59: arrow function və regular function arasında əsas fərqlər nədir? (What are the main differences between arrow function and regular function?)
