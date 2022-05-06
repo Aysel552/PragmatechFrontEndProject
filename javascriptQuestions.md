@@ -393,6 +393,10 @@ HTML allows event handler attributes, with JavaScript code, to be added to HTML 
 
 ### Question58: lambda expression nədir? Hansı hallarda istifadə olunması tövsiyə olunandır? (What is lambda expression? In what cases it is recommended to use?)
 
-**lambda expression** A lambda expression is a short block of code which takes in parameters and returns a value.
+**lambda expression** A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are present in most of modern programming languages (Python, Ruby, Java...).They are simply expressions that create functions.This is really important for a programming language to support first-class functions which basically means passing functions as arguments to other functions or assigning them to variables.
+
+In JavaScript pre-ES6 we have function expressions which give us an anonymous function (a function without a name).
+
+
 
 ### Question59: arrow function və regular function arasında əsas fərqlər nədir? (What are the main differences between arrow function and regular function?)
