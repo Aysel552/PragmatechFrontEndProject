@@ -1,24 +1,113 @@
-form{
-    width: 600px;
-    height: 600px;
-    border: 2px solid red;
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
+.form-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form{
+    width: 400px;
+    height: 600px;
+    border: 3px solid #f1f1f1;
+}
+
+
+.container{
+    padding: 16px;
+}
+
+input[type=email], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input[type=email]{
+    margin-bottom: 20px;
+}
+
+input[type=password]{
+    margin-bottom: 30px;
+}
+
+input [type=checkbox] {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forgot-password{
+    float: right;
+    color: #e7560d;
     font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 label {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.log-in {
+    width: 83%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 10px 17px;
+    background-color: #74c1b8;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 7px;
 }
 
-input{
+.social-btns{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.google-btn, .facebook-btn{
+    display: flex;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 5px;
     
-    justify-content: center;
+}
+
+.google-btn{
+    background-color: #4285f3;
+}
+
+.facebook-btn{
+    background-color: #3b5897;  
+}
+
+
+.sign-up{
+    color: #e7560d;
+    margin-left: 10px;
 }

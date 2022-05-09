@@ -7,29 +7,41 @@
     <title>Login-Sign Up Form</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="form-container">
     <div>
         <span class="blue-circle"></span>
     </div>
 
     <form>
-        <h1>Login Here</h1>
+        <h1 class="main-heading">Login Here</h1>
+
+        <div class="container">
         <label for="">Username</label>
         <input type="email" placeholder="Email" required>
 
         <label for="">Password</label>
-        <input type="password" placeholder="Password" required>
+        <input class="password" type="password" placeholder="Password" required> <br>
 
         <input type="checkbox">Remember Me
-        <a href="#">Forgot Password?</a>
+        
+        <a href="#" class="forgot-password">Forgot Password?</a>
 
-        <button>Log In</button>
+        </div>
 
-        <button>Google</button>
-        <button>Facebook</button>
+        <button class="log-in">Log In</button>
 
-        <a href="#">Sign Up</a>
+        <div class="social-btns">
+        <button class="google-btn">Google</button>
+        <button class="facebook-btn">Facebook</button>
+        </div>
+
+        <a class="sign-up" href="#">Sign Up</a>
 
         <div>
             <span class="red-circle"></span>
@@ -38,6 +50,7 @@
         
 
     </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
