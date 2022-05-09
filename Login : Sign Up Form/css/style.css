@@ -1,12 +1,21 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 63.5%;
+}
+
+
 body{
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
 }
 
 .form-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 form{
@@ -39,7 +48,7 @@ input[type=password]{
 
 input [type=checkbox] {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .forgot-password{
@@ -52,7 +61,6 @@ input [type=checkbox] {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 600;
     margin-top: 50px;
@@ -63,7 +71,6 @@ label {
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 } 
 
 .log-in {
@@ -73,7 +80,6 @@ label {
     margin: 10px 17px;
     background-color: #74c1b8;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     border: none;
     color: #fff;
     margin-bottom: 30px;
@@ -84,6 +90,7 @@ label {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .google-btn, .facebook-btn{
@@ -110,4 +117,32 @@ label {
 .sign-up{
     color: #e7560d;
     margin-left: 10px;
+}
+
+.circles{
+    position: relative;
+}
+
+.blue-circle{
+    position: absolute;
+    background-color: #6273c2;
+    width: 100px;
+    height: 100px;
+    top: -35rem;
+    left: -4rem;
+    border-radius: 50%;
+    z-index: -1;
+    /* margin-top: 10px; */
+}
+
+
+.red-circle{
+    position: absolute;
+    background-color: #ee696d;
+    width: 100px;
+    height: 100px;
+    bottom: -35rem;
+    right: -44rem;
+    border-radius: 50%;
+    z-index: -1;
 }
