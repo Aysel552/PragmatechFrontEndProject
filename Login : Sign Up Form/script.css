@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 63.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page {
+    position: relative;
+}
+
+.page-circleBlue {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #606fc2;
+    width: 15rem;
+    height: 15rem;
+    top: -7rem;
+    left: -7rem;
+    z-index: -1;
+}
+
+.page-circleRed {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ee676c;
+    width: 15rem;
+    height: 15rem;
+    bottom: -7rem;
+    right: -7rem;
+    z-index: -1;
+}
+
+.page-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33rem;
+    height: 50rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.01rem grey;
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 3rem;
+}
+
+.page-card h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.page-card-infologin {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-card-infologin label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.page-card-infologin input {
+    margin-bottom: 2rem;
+    height: 4rem;
+    padding: 0 1rem;
+    border: 0.1rem solid grey;
+    border-radius: 0.3rem;
+}
+
+.page-card-infologin input:focus {
+    outline: none;
+    border: 0.1rem solid blue;
+    border-radius: 0.3rem;
+}
+
+.page-card-check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.page-card-check-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.page-card-check-item i {
+    position: absolute;
+    top: -0.3rem;
+    left: 0.6rem;
+}
+
+.page-card-check-item label {
+    cursor: pointer;
+}
+
+.page-card-check-item-box {
+    width: 2rem;
+    height: 2rem;
+    border: 0.3rem gray solid;
+    border-radius: 0.5rem;
+    margin-right: 0.7rem;
+}
+
+.page-card-check label {
+    color: gray;
+    font-weight: bold;
+}
+
+.page-card-check a {
+    color: #ec793b;
+    font-weight: bold;
+}
+
+.page-card-btnLogin {
+    text-decoration: none;
+    text-align: center;
+    background-color: #68c1b8;
+    border-radius: 0.5rem;
+    padding: 1.5rem 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.page-card-btnLogin:hover {
+    background-color: #009a8b;
+}
+
+.page-card-social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.page-card-btnGoogle {
+    text-decoration: none;
+    text-align: center;
+    background-color: #4285f4;
+    border-radius: 0.5rem;
+    padding: 1.5rem 4rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.page-card-btnFacebook {
+    text-decoration: none;
+    text-align: center;
+    background-color: #3b5998;
+    border-radius: 0.5rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.page-card-signUp {
+    color: #ec793b;
+    font-weight: bold;
+}

@@ -9,40 +9,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<section>
+    <div class="container">
+        <div class="container-page-circleBlue"></div>
+        <div class="container-page-circleRed"></div>
 
-    <div class="form-container">
-    <div class="circles">
-        <span class="blue-circle"></span>
-        <span class="red-circle"></span>
-    </div>
-
-    <form>
-        <h1 class="main-heading">Login Here</h1>
-
-        <div class="container">
-        <label for="">Username</label>
-        <input type="email" placeholder="Email" required>
-
-        <label for="">Password</label>
-        <input class="password" type="password" placeholder="Password" required> <br>
-
-        <input type="checkbox">Remember Me
-        
-        <a href="#" class="forgot-password">Forgot Password?</a>
-
-        </div>
-
-        <button class="log-in">Log In</button>
-
-        <div class="social-btns">
-        <button class="google-btn">Google</button>
-        <button class="facebook-btn">Facebook</button>
-        </div>
-
-        <a class="sign-up" href="#">Sign Up</a>
-    </form>
-    </div>
-
-    <script src="script.js"></script>
+        <form class="container-page loginPage">
+            <h1>Login Here</h1>
+            <div class="container-page-logInfo">
+                <label for="">Username</label>
+                <input type="email" placeholder="Email" autofocus />
+                <label for="">Password</label>
+                <input type="password" placeholder="Password" />
+            </div>
+            <div class="container-page-check">
+                <div class="container-page-check-item">
+                    <div class="container-page-check-item-box">
+                        <!-- <i class="fa-solid fa-check fa-2x"></i> -->
+                    </div>
+                    <label for="">Remember Me</label>
+                </div>
+                <a href="">Forgot Password?</a>
+            </div>
+            <a href="#" class="container-page-btnLogin">Log In</a>
+            <div class="container-page-social">
+                <a href="#" class="container-page-btnGoogle">Google</a>
+                <a href="#" class="container-page-btnFacebook">Facebook</a>
+            </div>
+            <a href="#" class="container-page-signUp">Sign Up</a>
+        </form>
+    </section>
 </body>
 </html>
