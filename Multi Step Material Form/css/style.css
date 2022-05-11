@@ -1,39 +1,93 @@
 /* Adding Styles to Multi Step Material Form */
 *{
     font-family: Arial, Helvetica, sans-serif;
-
+    box-sizing: border-box;
 }
 
-form{
-    background-color: #f55560;
+html {
+    font-size: 63.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+section{
     width: 100vw;
     height: 100vh;
-}
-
-.container-header{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.container-paragraph{
+.container-page{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80rem;
+    height: 90rem;
+    padding: 4rem;
+    /* border-radius: 0.5rem; */
+    box-shadow: 0 0 1rem 0.01rem grey;
+    border: 2px solid grey;
+    background-color: #f55560;
 }
 
-.container-header h1{
-    font-size: 24px;
+.container{
+    padding: 16px;
+}
+
+.container-page h1{
+    text-align: center;
     color: #fff;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
+    font-size: 24px;
     line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 2rem;
 }
 
-.container-paragraph p{
-    display: flex;
+.container-page p{
+    text-align: center;
     color: #333333;
-    text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
     line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
 }
+
+hr {
+    border: 1px solid #f4a3a7;
+    margin-bottom: 25px;
+}
+
+/* Adding styles to buttons */
+
+.container-page-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-page-buttons i{
+    color: #c4454d;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.container-page a{
+    background-color: #c4454d;
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+
+
