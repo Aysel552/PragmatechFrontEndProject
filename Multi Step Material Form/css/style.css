@@ -74,20 +74,143 @@ hr {
     padding: 10px;
     border-radius: 50%;
     margin-bottom: 1rem;
+    margin: 0 4px;
 }
 
 .container-page a{
     background-color: #c4454d;
     text-align: center;
     text-decoration: none;
-    padding: 2rem 4rem;
+    padding: 15px 32px;
     border-radius: 5px;
     color: #fff;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 0 auto;
 }
+
+/* Adding styles to account info */
+
+.container-page-account{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.container-page-account .account-info{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.container-page-account .account-step{
+    color: #5f5858;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* Styling Account Details */
+
+.account-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.account-details label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.account-details input{
+    background-color: #fa7a81;
+    border: none;
+    border-bottom: 1px inset #fff;
+    border-radius: 3px;
+    width: 81%;
+    padding: 15px;
+    display: inline-block;
+    margin: 1px 0 22px 12rem;
+    
+}
+
+.account-details input:focus{
+    background-color: #c4454d;
+    border: none;
+    border-bottom: 1px inset #9c0f18;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+.email-info, .user-info{
+    /* margin: 1rem 4rem; */
+    width: 100%;
+}
+
+
+.password-info, .confirm-password-info{
+    /* margin: 1rem 2rem; */
+    width: 100%;
+}
+
+/* Styling Previous & Next Buttons */
+
+
+
+.previous-next-buttons{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6rem;
+
+}
+
+.previous-next-buttons .previous-btn {
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    border-radius: 10rem;
+    text-align: center;
+    margin-right: 4rem;
+    background-color: #c61d28;
+    border: 1px solid #fff;
+}
+        
+.previous-next-buttons .next-btn {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10rem;
+    margin-left: 3rem;
+    background-color: #c61d28;
+    border: 1px solid #fff;
+
+}
+
+
+
+
+
+
+
 
 
 
