@@ -168,40 +168,40 @@ hr {
 
 
 
-.previous-next-buttons{
+.direction-buttons{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 6rem;
-
 }
 
-.previous-next-buttons .previous-btn {
-    display: flex;
+.direction-buttons .previous-btn {
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 26px;
     font-weight: 300;
-    border-radius: 10rem;
+    border-radius: 5rem;
     text-align: center;
     margin-right: 4rem;
     background-color: #c61d28;
     border: 1px solid #fff;
+    
 }
         
-.previous-next-buttons .next-btn {
-    display: flex;
-    justify-content: space-between;
+.direction-buttons .next-btn {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 20px;
     text-transform: uppercase;
     text-align: center;
     border-radius: 10rem;
-    margin-left: 3rem;
+    margin-left: 37rem;
     background-color: #c61d28;
     border: 1px solid #fff;
+    width: 200px;
+
+    
 
 }
 

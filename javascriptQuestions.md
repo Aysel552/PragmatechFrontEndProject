@@ -400,3 +400,37 @@ In JavaScript pre-ES6 we have function expressions which give us an anonymous fu
 
 
 ### Question59: arrow function və regular function arasında əsas fərqlər nədir? (What are the main differences between arrow function and regular function?)
+
+
+
+### Question:  What is location href?
+The **Location href** property in HTML is **used to set or return the complete URL of the current page.** The Location href property **can also be used to set the href value point to another website or point to an email address**
+
+```
+Example:
+<button type="button" onclick="location.href='https://www.google.com/'">Home</button>
+```
+
+
+### Question: What is url?
+
+**URL** - Uniform Resoure Locator. It is a mechanism used by brosers to retrieve any published resource on the web.In other words,url is nothing more than the address of a given unique resource on the Web.
+
+```
+Examples of URL:
+
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+```
+
+![URL Structure](/image/url-structure.png)
+
+```
+Basic explanation of URL:
+
+Note: You might think of a URL like a regular postal mail address: the scheme represents the postal service you want to use, the domain name is the city or town, and the port is like the zip code; the path represents the building where your mail should be delivered; the parameters represent extra information such as the number of the apartment in the building; and, finally, the anchor represents the actual person to whom you've addressed your mail.
+```
+
+URLs can be **Absolute and Relative**
+
